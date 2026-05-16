@@ -1,7 +1,7 @@
 # NAME: CDN
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: SukkaW CDN 直连辅助
-# RULES: 4501
+# RULES: 4502
 # SKIPPED: 58
 # SKIPPED-TYPES: DOMAIN-WILDCARD=58
 # SOURCES:
@@ -3766,6 +3766,7 @@ name = CDN
 2, event.ithome.com.tw
 2, static.cnbeta.com.tw
 2, image.yuntu.com.tw
+2, i.meee.com.tw
 2, pgw.udn.com.tw
 2, s.udn.com.tw
 2, p.udn.com.tw
