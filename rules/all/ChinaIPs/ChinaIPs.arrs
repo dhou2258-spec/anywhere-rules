@@ -5,7 +5,7 @@
 # NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.
 # RULES: 22913
 # SKIPPED: 0
-# UPSTREAM-UPDATED: 2026-05-16 02:35:42
+# UPSTREAM-UPDATED: 2026-05-18 02:24:54
 
 name = ChinaIPs
 0, 1.0.1.0/24
@@ -6168,7 +6168,7 @@ name = ChinaIPs
 0, 114.66.240.0/20
 0, 114.66.64.0/20
 0, 114.66.80.0/22
-0, 114.66.80.0/23
+0, 114.66.81.0/24
 0, 114.67.0.0/16
 0, 114.67.131.0/24
 0, 114.67.136.0/24

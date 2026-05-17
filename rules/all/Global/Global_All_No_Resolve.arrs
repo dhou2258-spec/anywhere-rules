@@ -3,9 +3,9 @@
 # SOURCE: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/Global/Global_All_No_Resolve.list
 # GENERATED-FOR: Anywhere Routing Rule Set
 # NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.
-# RULES: 34268
+# RULES: 34272
 # SKIPPED: 47
-# UPSTREAM-UPDATED: 2026-05-16 02:34:50
+# UPSTREAM-UPDATED: 2026-05-18 02:24:03
 # SKIPPED-TYPES: PROCESS-NAME=1, USER-AGENT=46
 
 name = Global
@@ -2340,6 +2340,7 @@ name = Global
 2, archivx.to
 2, archlinux.de
 2, archlinux.org
+2, archlinux.page
 2, archlinuxarm.org
 2, archlinuxcn.org
 2, archway.ac.uk
@@ -20668,6 +20669,7 @@ name = Global
 2, riding.ac.uk
 2, right-2.ac.uk
 2, rightster.com
+2, rigums.xyz
 2, rimg.com.tw
 2, rin.ac.uk
 2, rinvdh7.xyz
@@ -21690,6 +21692,7 @@ name = Global
 2, sgsss.ac.uk
 2, sgul.ac.uk
 2, sh-xuxingda.com
+2, sh83.xyz
 2, shadbase.com
 2, shadowcomplex.com
 2, shadowslaves.com
@@ -25565,6 +25568,7 @@ name = Global
 2, vuasanhrong.com
 2, vulgarx.com
 2, vuvuzela.io
+2, vv1865.com
 2, vxnbbrs.xyz
 2, vxxsred.xyz
 2, w-mt.co
