@@ -1,6 +1,6 @@
 {
-  "total_files": 37,
-  "total_rules": 191334,
+  "total_files": 38,
+  "total_rules": 195416,
   "total_skipped": 141,
   "files": [
     {
@@ -25,7 +25,7 @@
       "name": "Ads_SukkaW",
       "description": "SukkaW 广告拦截集合",
       "output_path": "common/Ads_SukkaW.arrs",
-      "rule_count": 115520,
+      "rule_count": 115368,
       "skipped_count": 18,
       "unsupported_types": {
         "DOMAIN-WILDCARD": 15,
@@ -88,6 +88,17 @@
       "sources": [
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list",
         "https://ruleset.skk.moe/List/non_ip/global.conf"
+      ]
+    },
+    {
+      "name": "GFW",
+      "description": "GFW 域名列表",
+      "output_path": "common/GFW.arrs",
+      "rule_count": 4234,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "sources": [
+        "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/gfw.txt"
       ]
     },
     {

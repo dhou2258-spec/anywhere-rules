@@ -68,6 +68,13 @@ COMMON_RULE_SETS: list[dict[str, object]] = [
         ],
     },
     {
+        "name": "GFW",
+        "description": "GFW 域名列表",
+        "sources": [
+            "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/gfw.txt",
+        ],
+    },
+    {
         "name": "Direct",
         "description": "常用直连补充",
         "sources": [

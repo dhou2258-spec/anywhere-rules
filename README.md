@@ -36,3 +36,20 @@ https://raw.githubusercontent.com/<owner>/<repo>/<branch>/rules/all/Apple/Apple.
 ## 说明
 
 Anywhere 当前支持域名后缀、域名关键词、IPv4 CIDR、IPv6 CIDR。上游中的 `URL-REGEX`、`PROCESS-NAME`、`USER-AGENT`、`IP-ASN` 等无法等价表达的规则会被跳过，并写入生成文件头部的 `SKIPPED` / `SKIPPED-TYPES`。
+
+## 致谢
+
+感谢以下规则项目与作者长期维护公开规则，本仓库仅做格式转换与整理：
+
+- blackmatrix7/ios_rule_script
+- ACL4SSR/ACL4SSR
+- SukkaW/Surge
+- ConnersHua/RuleGo
+- NobyDa/Script
+- Loyalsoldier/v2ray-rules-dat
+- Loyalsoldier/surge-rules
+- TG-Twilight/AWAvenue-Ads-Rule
+- limbopro/Adblock4limbo
+- dler-io/Rules
+- geekdada/surge-list
+- VirgilClyne/GetSomeFries

@@ -36,6 +36,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No rule updates."
           else
-            git commit -m "Update Anywhere rules"
+            git commit -m "Update $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')"
             git push
           fi
