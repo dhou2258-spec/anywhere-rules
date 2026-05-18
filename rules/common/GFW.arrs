@@ -1,7 +1,7 @@
 # NAME: GFW
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: GFW 域名列表
-# RULES: 4234
+# RULES: 4236
 # SKIPPED: 0
 # SOURCES:
 # - https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/gfw.txt
@@ -3144,6 +3144,7 @@ name = GFW
 2, shwchurch.org
 2, shwchurch3.com
 2, sidelinesnews.com
+2, sider.ai
 2, signal.org
 2, silvergatebank.com
 2, simbolostwitter.com
@@ -4205,6 +4206,7 @@ name = GFW
 2, zh.pokerstrategy.com
 2, zh.wikiquote.org
 2, zhangtianliang.com
+2, zhangzhehan.net
 2, zhanlve.org
 2, zhao.1984.city
 2, zhengjian.org
