@@ -3,9 +3,9 @@
 # SOURCE: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/Global/Global_All.list
 # GENERATED-FOR: Anywhere Routing Rule Set
 # NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.
-# RULES: 34307
+# RULES: 34309
 # SKIPPED: 47
-# UPSTREAM-UPDATED: 2026-05-24 02:23:20
+# UPSTREAM-UPDATED: 2026-05-26 02:35:14
 # SKIPPED-TYPES: PROCESS-NAME=1, USER-AGENT=46
 
 name = Global
@@ -7883,6 +7883,7 @@ name = Global
 2, e-tugra.com
 2, e3an.ac.uk
 2, e5.sk
+2, e53w.com
 2, ea-anz-press.com
 2, ea.com
 2, eaaccess.com
@@ -20103,6 +20104,7 @@ name = Global
 2, qbmengmei6.mom
 2, qbsc.ac.uk
 2, qckprn.com
+2, qcmod.xyz
 2, qcomgeo2.com
 2, qctconnect.com
 2, qdiehzz7.me

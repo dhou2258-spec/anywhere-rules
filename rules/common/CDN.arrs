@@ -1,7 +1,7 @@
 # NAME: CDN
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: SukkaW CDN 直连辅助
-# RULES: 4502
+# RULES: 4505
 # SKIPPED: 58
 # SKIPPED-TYPES: DOMAIN-WILDCARD=58
 # SOURCES:
@@ -3408,6 +3408,7 @@ name = CDN
 2, fbsbx.com
 2, fbcdn.com
 2, cdn.faire.com
+2, f-cdn.com
 2, img.etimg.com
 2, dz2cdn1.dzone.com
 2, drtst.com
@@ -4459,6 +4460,7 @@ name = CDN
 2, static.returngo.ai
 2, prod-cdn.webtune.ai
 2, cms.mistral.ai
+2, widget.prod.equally.ai
 2, widget.docsbot.ai
 2, cdn.aimerce.ai
 2, static.zanmei.ai
@@ -4478,6 +4480,7 @@ name = CDN
 2, cdn.roof.ai
 2, metrics.kapa.ai
 2, widget.kapa.ai
+2, cdn.gist.ai
 2, cdn.fera.ai
 2, assets-docs.dify.ai
 2, assets.dify.ai
