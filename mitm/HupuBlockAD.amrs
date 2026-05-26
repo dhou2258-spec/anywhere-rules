@@ -1,5 +1,4 @@
 # 虎扑去广告 - Anywhere MITM RuleSet
-# 功能: 将 rewrite 转为 request 阶段短路；图片类返回 1x1 GIF，JSON 类返回 {}。
 
 name = 虎扑去广告
 hostname = games.mobileapi.hupu.com, du.hupucdn.com, hoopchina.com.cn, goblin.hupu.com

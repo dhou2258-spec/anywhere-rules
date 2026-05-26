@@ -1,6 +1,4 @@
 # 银行 App 广告/开屏修正 - Anywhere MITM RuleSet
-# 策略: URL Rewrite / Map Local 转为 request 阶段短路，避免下载真实广告图。
-# 说明: 这不是通用 VPN/代理检测绕过模块。
 
 name = 银行App广告修正
 hostname = static.95508.com, mps.95508.com, unionsr.chinalifeonline.com.cn, imcs.citicbank.com, wap.bank.ecitic.com, lban.spdb.com.cn, wap.spdb.com.cn, s3gw.cmbimg.com, webappcfg.paas.cmbchina.com, mbmodule-openapi.paas.cmbchina.com, image1.ccb.com, download1.bankcomm.com, mres.aibank.com, mobile.cebbank.com, v.icbc.com.cn, yghsh.cebbank.com, mbank.grcbank.com, cdn.jlbank.com.cn, mbank5.jsbchina.cn, midc.cdn-static.abchina.com.cn, enjoy.cdn-static.abchina.com, firefly.abchina.com.cn, cgbank.oss-cn-shenzhen.aliyuncs.com, images.cib.com.cn, file.cibfintech.com, static.psbc.com, mcc.psbc.com, mlife.jf365.boc.cn
