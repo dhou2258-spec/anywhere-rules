@@ -1,6 +1,6 @@
 {
   "total_files": 38,
-  "total_rules": 191453,
+  "total_rules": 191418,
   "total_skipped": 141,
   "files": [
     {
@@ -25,7 +25,7 @@
       "name": "Ads_SukkaW",
       "description": "SukkaW 广告拦截集合",
       "output_path": "common/Ads_SukkaW.arrs",
-      "rule_count": 114563,
+      "rule_count": 114525,
       "skipped_count": 18,
       "unsupported_types": {
         "DOMAIN-WILDCARD": 15,
@@ -94,7 +94,7 @@
       "name": "GFW",
       "description": "GFW 域名列表",
       "output_path": "common/GFW.arrs",
-      "rule_count": 4245,
+      "rule_count": 4246,
       "skipped_count": 0,
       "unsupported_types": {},
       "sources": [
@@ -465,7 +465,7 @@
       "name": "CDN",
       "description": "SukkaW CDN 直连辅助",
       "output_path": "common/CDN.arrs",
-      "rule_count": 4505,
+      "rule_count": 4507,
       "skipped_count": 58,
       "unsupported_types": {
         "DOMAIN-WILDCARD": 58

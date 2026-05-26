@@ -1,7 +1,7 @@
 # NAME: GFW
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: GFW 域名列表
-# RULES: 4245
+# RULES: 4246
 # SKIPPED: 0
 # SOURCES:
 # - https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/gfw.txt
@@ -2455,6 +2455,7 @@ name = GFW
 2, motherless.com
 2, movements.org
 2, moviefap.com
+2, mozilla.ai
 2, mpettis.com
 2, mpfinance.com
 2, mpinews.com

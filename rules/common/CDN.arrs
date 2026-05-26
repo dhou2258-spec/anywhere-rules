@@ -1,7 +1,7 @@
 # NAME: CDN
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: SukkaW CDN 直连辅助
-# RULES: 4505
+# RULES: 4507
 # SKIPPED: 58
 # SKIPPED-TYPES: DOMAIN-WILDCARD=58
 # SOURCES:
@@ -426,6 +426,7 @@ name = CDN
 2, tileserver.gnome.org
 2, static.gnome.org
 2, eggjs.org
+2, error.c.cdn77.org
 2, hits.b3log.org
 2, static.arxiv.org
 2, 91pic.org
@@ -4119,6 +4120,7 @@ name = CDN
 2, ipfs.denarius.io
 2, assets.customer.io
 2, rum.cronitor.io
+2, fonts.coollabs.io
 2, cloudimg.io
 2, static.assetlab.io
 2, code.upscope.io
