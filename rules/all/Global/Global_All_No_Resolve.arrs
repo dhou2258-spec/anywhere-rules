@@ -3,9 +3,9 @@
 # SOURCE: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/Global/Global_All_No_Resolve.list
 # GENERATED-FOR: Anywhere Routing Rule Set
 # NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.
-# RULES: 34344
+# RULES: 34348
 # SKIPPED: 47
-# UPSTREAM-UPDATED: 2026-05-30 02:54:15
+# UPSTREAM-UPDATED: 2026-06-01 02:26:45
 # SKIPPED-TYPES: PROCESS-NAME=1, USER-AGENT=46
 
 name = Global
@@ -3040,7 +3040,6 @@ name = Global
 2, bangkokstreetwhores.com
 2, bangor-university-london.ac.uk
 2, bangor.ac.uk
-2, bangumi.tv
 2, bangyourwife.com
 2, bank-arzamas.ru
 2, bank-credit-suisse-moscow.ru
@@ -3634,7 +3633,6 @@ name = Global
 2, bftv.ac.uk
 2, bgc.ac.uk
 2, bgicdn.com
-2, bgm.tv
 2, bgov.com
 2, bgr.in
 2, bgs.ac.uk
@@ -5717,7 +5715,6 @@ name = Global
 2, chid.com.mm
 2, chigroup.ac.uk
 2, chihair-straightener.com
-2, chii.in
 2, chikiporn.com
 2, chikubank.co.jp
 2, chilbolton.ac.uk
@@ -11767,7 +11764,6 @@ name = Global
 2, hibiki-cast.jp
 2, hiddenhistorieswwi.ac.uk
 2, hiddenvoyeurspy.com
-2, hiddify.com
 2, hidefporn.ws
 2, hidive.com
 2, hifacebook.info
@@ -14878,6 +14874,7 @@ name = Global
 2, livinglegacies1914-18.ac.uk
 2, livingwithmachines.ac.uk
 2, livingyourambition.com
+2, livinno.org
 2, livjm.ac.uk
 2, livrariart.com.br
 2, lizardporn.com
@@ -18478,6 +18475,7 @@ name = Global
 2, ootbstudio.co.kr
 2, op.gg
 2, op7979.com
+2, opac-project.eu
 2, opdems.ac.uk
 2, open.ac.uk
 2, openamt.com
@@ -28046,6 +28044,7 @@ name = Global
 2, arunachalforests.gov.in
 2, arvanstorage.ir
 2, arweave.org
+2, as.mr
 2, asacp.org
 2, asdfg.jp
 2, asg.to
@@ -28144,6 +28143,7 @@ name = Global
 2, bangdream.space
 2, bangkokpost.com
 2, bangumi.moe
+2, bangumi.tv
 2, bangyoulater.com
 2, bankmobilevibe.com
 2, bannednews.org
@@ -28227,6 +28227,7 @@ name = Global
 2, beyondfirewall.com
 2, bfnn.org
 2, bfsh.hk
+2, bgm.tv
 2, bgme.me
 2, bgvpn.com
 2, bianlei.com
@@ -28600,6 +28601,7 @@ name = Global
 2, cherrysave.com
 2, chhongbi.org
 2, chicagoncmtv.com
+2, chii.in
 2, china-mmm.net
 2, china-review.com.ua
 2, china-week.com
@@ -28766,7 +28768,6 @@ name = Global
 2, cn6.eu
 2, cna.com.tw
 2, cnabc.com
-2, cnbc.com
 2, cnbeta.com.tw
 2, cnd.org
 2, cnet.com
@@ -29763,6 +29764,7 @@ name = Global
 2, geekheart.info
 2, gekikame.com
 2, gelbooru.com
+2, gencraft.com
 2, generated.photos
 2, geni.us
 2, genius.com
@@ -30086,6 +30088,7 @@ name = Global
 2, hicairo.com
 2, hiccears.com
 2, hidden-advent.org
+2, hiddify.com
 2, hide.me
 2, hidecloud.com
 2, hidein.net
@@ -33522,6 +33525,7 @@ name = Global
 2, vbstatic.co
 2, vcf-online.org
 2, vcfbuilder.org
+2, veed.io
 2, vegasred.com
 2, velkaepocha.sk
 2, venbbs.com

@@ -3,9 +3,9 @@
 # SOURCE: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/Proxy/Proxy_All_No_Resolve.list
 # GENERATED-FOR: Anywhere Routing Rule Set
 # NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.
-# RULES: 6780
+# RULES: 6786
 # SKIPPED: 8
-# UPSTREAM-UPDATED: 2026-05-30 02:54:37
+# UPSTREAM-UPDATED: 2026-06-01 02:27:08
 # SKIPPED-TYPES: USER-AGENT=8
 
 name = Proxy
@@ -451,6 +451,7 @@ name = Proxy
 2, arunachalforests.gov.in
 2, arvanstorage.ir
 2, arweave.org
+2, as.mr
 2, asacp.org
 2, asdfg.jp
 2, asg.to
@@ -550,6 +551,7 @@ name = Proxy
 2, bangdream.space
 2, bangkokpost.com
 2, bangumi.moe
+2, bangumi.tv
 2, bangyoulater.com
 2, bankmobilevibe.com
 2, bannednews.org
@@ -635,6 +637,7 @@ name = Proxy
 2, beyondfirewall.com
 2, bfnn.org
 2, bfsh.hk
+2, bgm.tv
 2, bgme.me
 2, bgvpn.com
 2, bianlei.com
@@ -1018,6 +1021,7 @@ name = Proxy
 2, cherrysave.com
 2, chhongbi.org
 2, chicagoncmtv.com
+2, chii.in
 2, china-mmm.jp.net
 2, china-mmm.net
 2, china-mmm.sa.com
@@ -1187,7 +1191,6 @@ name = Proxy
 2, cn6.eu
 2, cna.com.tw
 2, cnabc.com
-2, cnbc.com
 2, cnbeta.com.tw
 2, cnd.org
 2, cnet.com
@@ -2195,6 +2198,7 @@ name = Proxy
 2, geekheart.info
 2, gekikame.com
 2, gelbooru.com
+2, gencraft.com
 2, generated.photos
 2, geni.us
 2, genius.com
@@ -2520,6 +2524,7 @@ name = Proxy
 2, hicairo.com
 2, hiccears.com
 2, hidden-advent.org
+2, hiddify.com
 2, hide.me
 2, hidecloud.com
 2, hidein.net
@@ -5978,6 +5983,7 @@ name = Proxy
 2, vcf-online.org
 2, vcfbuilder.org
 2, vds.rightster.com
+2, veed.io
 2, vegasred.com
 2, velkaepocha.sk
 2, venbbs.com

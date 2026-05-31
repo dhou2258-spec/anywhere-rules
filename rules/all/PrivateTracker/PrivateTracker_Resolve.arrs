@@ -3,9 +3,9 @@
 # SOURCE: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/PrivateTracker/PrivateTracker_Resolve.list
 # GENERATED-FOR: Anywhere Routing Rule Set
 # NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.
-# RULES: 264
+# RULES: 260
 # SKIPPED: 0
-# UPSTREAM-UPDATED: 2026-05-30 02:55:32
+# UPSTREAM-UPDATED: 2026-06-01 02:28:02
 
 name = PrivateTracker
 2, 004430.xyz
@@ -21,21 +21,18 @@ name = PrivateTracker
 2, bt.poletracker.org
 2, bt1.archive.org
 2, bt2.archive.org
-2, buny.uk
 2, bvarf.tracker.sh
 2, coeus.torrentonline.cc
 2, evan.im
 2, exodus.desync.com
-2, explodie.org
-2, home.yxgz.club
 2, ipv4announce.sktorrent.eu
-2, jvavav.com
 2, leet-tracker.moe
 2, martin-gebhardt.eu
 2, ns575949.ip-51-222-82.net
 2, nyaa.tracker.wf
 2, obey.torrentonline.cc
 2, open.demonii.com
+2, open.demonoid.ch
 2, open.ftorrent.com
 2, open.stealth.si
 2, open.tracker.ink
@@ -45,16 +42,12 @@ name = PrivateTracker
 2, pybittrack.retiolus.net
 2, rekcart.duckdns.org
 2, retracker.hotplug.ru
-2, retracker.spark-rostov.ru
-2, seeders-paradise.org
+2, retracker01-msk-virt.corbina.net
 2, seedpeer.net
 2, shahidrazi.online
-2, share.hkg-fansub.info
 2, shubt.net
-2, speedtest.iperson.xyz
 2, t.213891.xyz
 2, t.overflow.biz
-2, torrent.bowed.net
 2, torrent.hificode.in
 2, torrent.tracker.durukanbal.com
 2, torrentclub.online
@@ -65,18 +58,19 @@ name = PrivateTracker
 2, tr.highstar.shop
 2, tr.kxmp.cf
 2, tr.nyacat.pw
+2, tr.zukizuki.org
+2, tr4ck3r.duckdns.org
 2, tracker-udp.gbitt.info
 2, tracker.004430.xyz
 2, tracker.1h.is
+2, tracker.23794.top
 2, tracker.7471.top
 2, tracker.aruku.ovh
 2, tracker.auctor.tv
 2, tracker.bittor.pw
 2, tracker.bluefrog.pw
 2, tracker.breizh.pm
-2, tracker.bt-hash.com
 2, tracker.bt4g.com
-2, tracker.bz
 2, tracker.corpscorp.online
 2, tracker.ddunlimited.net
 2, tracker.dhitechnical.com
@@ -89,13 +83,13 @@ name = PrivateTracker
 2, tracker.gcrenwp.top
 2, tracker.gmi.gd
 2, tracker.hismz.cn
+2, tracker.huadongblower.xyz
 2, tracker.iperson.xyz
 2, tracker.ipv6tracker.org
 2, tracker.kuroy.me
 2, tracker.leechshield.link
-2, tracker.lintk.me
+2, tracker.manager.itislove.cz
 2, tracker.manager.v6.navy
-2, tracker.moxing.party
 2, tracker.mywaifu.best
 2, tracker.nekomi.cn
 2, tracker.nyaa.vc
@@ -111,18 +105,21 @@ name = PrivateTracker
 2, tracker.qu.ax
 2, tracker.renfei.net
 2, tracker.sbsub.com
+2, tracker.sharebro.in
 2, tracker.skyts.net
 2, tracker.startwork.cv
 2, tracker.t-1.org
 2, tracker.theoks.net
 2, tracker.therarbg.to
 2, tracker.torrent.eu.org
+2, tracker.tritan.gg
 2, tracker.tryhackx.org
 2, tracker.waaa.moe
 2, tracker.wildkat.net
 2, tracker.xiaoduola.xyz
 2, tracker.xn--djrq4gl4hvoi.top
 2, tracker.yemekyedim.com
+2, tracker.yume-hatsuyuki.moe
 2, tracker.zhuqiy.com
 2, tracker1.520.jp
 2, tracker1.itzmx.com
@@ -137,7 +134,6 @@ name = PrivateTracker
 2, v6.vito-tracker.space
 2, vito-tracker.duckdns.org
 2, whybother.torrentonline.cc
-2, www.genesis-sp.org
 2, www.torrentsnipe.info
 2, www.wareztorrent.com
 2, yuptracker-eu.gaijinent.com
