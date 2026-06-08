@@ -1,6 +1,6 @@
 {
   "total_files": 38,
-  "total_rules": 192215,
+  "total_rules": 192273,
   "total_skipped": 141,
   "files": [
     {
@@ -25,7 +25,7 @@
       "name": "Ads_SukkaW",
       "description": "SukkaW 广告拦截集合",
       "output_path": "common/Ads_SukkaW.arrs",
-      "rule_count": 115340,
+      "rule_count": 115248,
       "skipped_count": 18,
       "unsupported_types": {
         "DOMAIN-WILDCARD": 15,
@@ -397,7 +397,7 @@
       "name": "ChinaIP",
       "description": "中国大陆 IP CIDR",
       "output_path": "common/ChinaIP.arrs",
-      "rule_count": 5637,
+      "rule_count": 5787,
       "skipped_count": 0,
       "unsupported_types": {},
       "sources": [
