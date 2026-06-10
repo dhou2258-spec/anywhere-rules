@@ -45,3 +45,4 @@
 | PayPal | 247 | 1 | PayPal | [common/PayPal.arrs](./PayPal.arrs) |
 | Cloudflare | 65 | 0 | Cloudflare | [common/Cloudflare.arrs](./Cloudflare.arrs) |
 | CDN | 4523 | 58 | SukkaW CDN 直连辅助 | [common/CDN.arrs](./CDN.arrs) |
+| GeoIP_CN | 5951 | 0 | GeoIP 中国大陆 IP CIDR | [common/GeoIP_CN.arrs](./GeoIP_CN.arrs) |

@@ -21,12 +21,18 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install maxminddb
+
       - name: Convert upstream rules
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
           python scripts/convert_blackmatrix7.py
           python scripts/build_common_rules.py
+          python scripts/build_geoip_cn.py
 
       - name: Commit generated rules
         run: |
