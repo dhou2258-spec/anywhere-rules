@@ -53,6 +53,8 @@ SKIPPED_TYPES = {
     "USER-AGENT",
 }
 
+MAX_RULES_PER_SET = 10000
+
 
 @dataclass
 class ConvertedRuleSet:
@@ -220,6 +222,116 @@ def raw_url(repo: str, branch: str, source_path: str) -> str:
     return f"https://raw.githubusercontent.com/{repo}/{quote(branch)}/{quote(source_path, safe='/')}"
 
 
+def write_rule_set_file(
+    destination: Path,
+    name: str,
+    repo: str,
+    branch: str,
+    source_path: str,
+    rules: list[tuple[int, str]],
+    skipped_count: int,
+    unsupported: dict[str, int],
+    upstream_updated: str | None,
+    total_rules: int | None = None,
+) -> None:
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    body = [
+        f"# NAME: {name}",
+        "# AUTHOR: blackmatrix7",
+        f"# SOURCE: https://github.com/{repo}/blob/{branch}/{source_path}",
+        "# GENERATED-FOR: Anywhere Routing Rule Set",
+        "# NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.",
+        f"# RULES: {len(rules)}",
+        f"# SKIPPED: {skipped_count}",
+    ]
+    if total_rules is not None and total_rules != len(rules):
+        body.append(f"# SOURCE-RULES: {total_rules}")
+    if upstream_updated:
+        body.append(f"# UPSTREAM-UPDATED: {upstream_updated}")
+    if unsupported:
+        summary = ", ".join(f"{key}={unsupported[key]}" for key in sorted(unsupported))
+        body.append(f"# SKIPPED-TYPES: {summary}")
+    body.extend(["", f"name = {name}"])
+    body.extend(f"{rule_type}, {value}" for rule_type, value in rules)
+    destination.write_text("\n".join(body) + "\n", encoding="utf-8")
+
+
+def split_destination(destination: Path, index: int) -> Path:
+    return destination.with_name(f"{destination.stem}_{index:02d}{destination.suffix}")
+
+
+def build_converted_outputs(
+    name: str,
+    repo: str,
+    branch: str,
+    source_path: str,
+    destination: Path,
+    dist: Path,
+    rules: list[tuple[int, str]],
+    unsupported: dict[str, int],
+    upstream_updated: str | None,
+) -> list[ConvertedRuleSet]:
+    skipped_count = sum(unsupported.values())
+    if len(rules) <= MAX_RULES_PER_SET:
+        write_rule_set_file(
+            destination,
+            name,
+            repo,
+            branch,
+            source_path,
+            rules,
+            skipped_count,
+            unsupported,
+            upstream_updated,
+        )
+        return [
+            ConvertedRuleSet(
+                name=name,
+                source_path=source_path,
+                output_path=destination.relative_to(dist).as_posix(),
+                rule_count=len(rules),
+                skipped_count=skipped_count,
+                unsupported_types=unsupported,
+                upstream_updated=upstream_updated,
+            )
+        ]
+
+    chunks = [
+        rules[index:index + MAX_RULES_PER_SET]
+        for index in range(0, len(rules), MAX_RULES_PER_SET)
+    ]
+    converted: list[ConvertedRuleSet] = []
+    for index, chunk in enumerate(chunks, start=1):
+        part_name = f"{name}_{index:02d}"
+        part_destination = split_destination(destination, index)
+        part_unsupported = unsupported if index == 1 else {}
+        part_skipped_count = skipped_count if index == 1 else 0
+        write_rule_set_file(
+            part_destination,
+            part_name,
+            repo,
+            branch,
+            source_path,
+            chunk,
+            part_skipped_count,
+            part_unsupported,
+            upstream_updated,
+            total_rules=len(rules),
+        )
+        converted.append(
+            ConvertedRuleSet(
+                name=part_name,
+                source_path=source_path,
+                output_path=part_destination.relative_to(dist).as_posix(),
+                rule_count=len(chunk),
+                skipped_count=part_skipped_count,
+                unsupported_types=part_unsupported,
+                upstream_updated=upstream_updated,
+            )
+        )
+    return converted
+
+
 def convert_source(
     repo: str,
     branch: str,
@@ -227,7 +339,7 @@ def convert_source(
     dist: Path,
     source_path: str,
     token: str | None,
-) -> ConvertedRuleSet:
+) -> list[ConvertedRuleSet]:
     text = fetch_bytes(raw_url(repo, branch, source_path), token=None).decode("utf-8-sig")
     lines = text.splitlines()
     metadata = parse_comment_metadata(lines)
@@ -247,33 +359,15 @@ def convert_source(
             unsupported[skipped_type] = unsupported.get(skipped_type, 0) + 1
 
     destination = output_path_for(source_path, source_family, dist)
-    destination.parent.mkdir(parents=True, exist_ok=True)
-    skipped_count = sum(unsupported.values())
-    body = [
-        f"# NAME: {name}",
-        "# AUTHOR: blackmatrix7",
-        f"# SOURCE: https://github.com/{repo}/blob/{branch}/{source_path}",
-        "# GENERATED-FOR: Anywhere Routing Rule Set",
-        "# NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.",
-        f"# RULES: {len(rules)}",
-        f"# SKIPPED: {skipped_count}",
-    ]
-    if metadata.get("UPDATED"):
-        body.append(f"# UPSTREAM-UPDATED: {metadata['UPDATED']}")
-    if unsupported:
-        summary = ", ".join(f"{key}={unsupported[key]}" for key in sorted(unsupported))
-        body.append(f"# SKIPPED-TYPES: {summary}")
-    body.extend(["", f"name = {name}"])
-    body.extend(f"{rule_type}, {value}" for rule_type, value in rules)
-    destination.write_text("\n".join(body) + "\n", encoding="utf-8")
-
-    return ConvertedRuleSet(
+    return build_converted_outputs(
         name=name,
+        repo=repo,
+        branch=branch,
         source_path=source_path,
-        output_path=destination.relative_to(dist).as_posix(),
-        rule_count=len(rules),
-        skipped_count=skipped_count,
-        unsupported_types=unsupported,
+        destination=destination,
+        dist=dist,
+        rules=rules,
+        unsupported=unsupported,
         upstream_updated=metadata.get("UPDATED"),
     )
 
@@ -368,7 +462,7 @@ def main() -> int:
             for source_path in paths
         ]
         for future in as_completed(futures):
-            converted.append(future.result())
+            converted.extend(future.result())
 
     converted.sort(key=lambda item: item.output_path.lower())
     index = {

@@ -15,6 +15,9 @@ from typing import Iterable
 from convert_blackmatrix7 import convert_line, fetch_bytes, split_rule_line
 
 
+MAX_RULES_PER_SET = 10000
+
+
 COMMON_RULE_SETS: list[dict[str, object]] = [
     {
         "name": "Reject",
@@ -25,14 +28,6 @@ COMMON_RULE_SETS: list[dict[str, object]] = [
             "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list",
             "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Reject.list",
-        ],
-    },
-    {
-        "name": "Ads_SukkaW",
-        "description": "SukkaW 广告拦截集合",
-        "sources": [
-            "https://ruleset.skk.moe/List/domainset/reject.conf",
-            "https://ruleset.skk.moe/List/non_ip/reject.conf",
         ],
     },
     {
@@ -401,25 +396,25 @@ def fetch_source_lines(url: str) -> list[str]:
     return fetch_bytes(url, token=None).decode("utf-8-sig", errors="replace").splitlines()
 
 
-def build_rule_set(config: dict[str, object], output_dir: Path) -> BuiltCommonRuleSet:
-    name = str(config["name"])
-    description = str(config.get("description", ""))
-    sources = [str(url) for url in config.get("sources", [])]
-    all_lines: list[str] = []
-    for source in sources:
-        all_lines.extend(fetch_source_lines(source))
-        all_lines.append("")
-
-    rules, unsupported = convert_lines(all_lines)
-    output = output_dir / f"{name}.arrs"
+def write_rule_set_file(
+    output: Path,
+    name: str,
+    description: str,
+    rules: list[tuple[int, str]],
+    sources: list[str],
+    unsupported: dict[str, int] | None = None,
+    total_rules: int | None = None,
+) -> None:
     output.parent.mkdir(parents=True, exist_ok=True)
     body = [
         f"# NAME: {name}",
         "# GENERATED-FOR: Anywhere Routing Rule Set",
         f"# DESCRIPTION: {description}",
         f"# RULES: {len(rules)}",
-        f"# SKIPPED: {sum(unsupported.values())}",
+        f"# SKIPPED: {sum((unsupported or {}).values())}",
     ]
+    if total_rules is not None and total_rules != len(rules):
+        body.append(f"# SOURCE-RULES: {total_rules}")
     if unsupported:
         body.append(
             "# SKIPPED-TYPES: "
@@ -431,15 +426,74 @@ def build_rule_set(config: dict[str, object], output_dir: Path) -> BuiltCommonRu
     body.extend(f"{rule_type}, {value}" for rule_type, value in rules)
     output.write_text("\n".join(body) + "\n", encoding="utf-8")
 
-    return BuiltCommonRuleSet(
-        name=name,
-        description=description,
-        output_path=output.relative_to(output_dir.parent).as_posix(),
-        rule_count=len(rules),
-        skipped_count=sum(unsupported.values()),
-        unsupported_types=unsupported,
-        sources=sources,
-    )
+
+def build_rule_set_outputs(
+    name: str,
+    description: str,
+    rules: list[tuple[int, str]],
+    unsupported: dict[str, int],
+    sources: list[str],
+    output_dir: Path,
+) -> list[BuiltCommonRuleSet]:
+    if len(rules) <= MAX_RULES_PER_SET:
+        output = output_dir / f"{name}.arrs"
+        write_rule_set_file(output, name, description, rules, sources, unsupported)
+        return [
+            BuiltCommonRuleSet(
+                name=name,
+                description=description,
+                output_path=output.relative_to(output_dir.parent).as_posix(),
+                rule_count=len(rules),
+                skipped_count=sum(unsupported.values()),
+                unsupported_types=unsupported,
+                sources=sources,
+            )
+        ]
+
+    chunks = [
+        rules[index:index + MAX_RULES_PER_SET]
+        for index in range(0, len(rules), MAX_RULES_PER_SET)
+    ]
+    built: list[BuiltCommonRuleSet] = []
+    for index, chunk in enumerate(chunks, start=1):
+        part_name = f"{name}_{index:02d}"
+        part_description = f"{description}（分片 {index}/{len(chunks)}）"
+        output = output_dir / f"{part_name}.arrs"
+        part_unsupported = unsupported if index == 1 else {}
+        write_rule_set_file(
+            output,
+            part_name,
+            part_description,
+            chunk,
+            sources,
+            part_unsupported,
+            total_rules=len(rules),
+        )
+        built.append(
+            BuiltCommonRuleSet(
+                name=part_name,
+                description=part_description,
+                output_path=output.relative_to(output_dir.parent).as_posix(),
+                rule_count=len(chunk),
+                skipped_count=sum(part_unsupported.values()),
+                unsupported_types=part_unsupported,
+                sources=sources,
+            )
+        )
+    return built
+
+
+def build_rule_set(config: dict[str, object], output_dir: Path) -> list[BuiltCommonRuleSet]:
+    name = str(config["name"])
+    description = str(config.get("description", ""))
+    sources = [str(url) for url in config.get("sources", [])]
+    all_lines: list[str] = []
+    for source in sources:
+        all_lines.extend(fetch_source_lines(source))
+        all_lines.append("")
+
+    rules, unsupported = convert_lines(all_lines)
+    return build_rule_set_outputs(name, description, rules, unsupported, sources, output_dir)
 
 
 def write_catalog(output_dir: Path, built: list[BuiltCommonRuleSet]) -> None:
@@ -471,7 +525,9 @@ def main() -> int:
         shutil.rmtree(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    built = [build_rule_set(config, output_dir) for config in COMMON_RULE_SETS]
+    built: list[BuiltCommonRuleSet] = []
+    for config in COMMON_RULE_SETS:
+        built.extend(build_rule_set(config, output_dir))
     index = {
         "total_files": len(built),
         "total_rules": sum(item.rule_count for item in built),

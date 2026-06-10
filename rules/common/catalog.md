@@ -5,7 +5,6 @@
 | Name | Rules | Skipped | Description | File |
 | --- | ---: | ---: | --- | --- |
 | Reject | 6204 | 2 | 广告、恶意站点和跟踪拦截基础集合 | [common/Reject.arrs](./Reject.arrs) |
-| Ads_SukkaW | 115257 | 18 | SukkaW 广告拦截集合 | [common/Ads_SukkaW.arrs](./Ads_SukkaW.arrs) |
 | Ads_AWAvenue | 905 | 0 | 秋风广告规则 AWAvenue | [common/Ads_AWAvenue.arrs](./Ads_AWAvenue.arrs) |
 | AI | 49 | 1 | 常见 AI 服务 | [common/AI.arrs](./AI.arrs) |
 | Proxy | 1558 | 2 | 常用代理域名集合 | [common/Proxy.arrs](./Proxy.arrs) |
@@ -34,7 +33,11 @@
 | Bilibili | 20 | 0 | Bilibili | [common/Bilibili.arrs](./Bilibili.arrs) |
 | WeChat | 339 | 2 | WeChat | [common/WeChat.arrs](./WeChat.arrs) |
 | ChinaDomain | 857 | 4 | 中国大陆常见域名直连 | [common/ChinaDomain.arrs](./ChinaDomain.arrs) |
-| CN_Additional | 43245 | 0 | 中国大陆域名补充 | [common/CN_Additional.arrs](./CN_Additional.arrs) |
+| CN_Additional_01 | 10000 | 0 | 中国大陆域名补充（分片 1/5） | [common/CN_Additional_01.arrs](./CN_Additional_01.arrs) |
+| CN_Additional_02 | 10000 | 0 | 中国大陆域名补充（分片 2/5） | [common/CN_Additional_02.arrs](./CN_Additional_02.arrs) |
+| CN_Additional_03 | 10000 | 0 | 中国大陆域名补充（分片 3/5） | [common/CN_Additional_03.arrs](./CN_Additional_03.arrs) |
+| CN_Additional_04 | 10000 | 0 | 中国大陆域名补充（分片 4/5） | [common/CN_Additional_04.arrs](./CN_Additional_04.arrs) |
+| CN_Additional_05 | 3245 | 0 | 中国大陆域名补充（分片 5/5） | [common/CN_Additional_05.arrs](./CN_Additional_05.arrs) |
 | ChinaIP | 5787 | 0 | 中国大陆 IP CIDR | [common/ChinaIP.arrs](./ChinaIP.arrs) |
 | Lan | 8 | 0 | 局域网和私有地址 | [common/Lan.arrs](./Lan.arrs) |
 | Game | 597 | 0 | 游戏平台集合 | [common/Game.arrs](./Game.arrs) |

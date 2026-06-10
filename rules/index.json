@@ -5,7 +5,7 @@
     "source_family": "Surge",
     "tree_sha": "db7ca31b39240366750641d2d2c0f09d9109979a"
   },
-  "total_files": 860,
+  "total_files": 1120,
   "total_rules": 2917539,
   "total_skipped": 1275630,
   "files": [
@@ -320,19 +320,199 @@
       "upstream_updated": "2024-01-08 16:02:58"
     },
     {
-      "name": "AdGuardSDNSFilter",
+      "name": "AdGuardSDNSFilter_01",
       "source_path": "rule/Surge/AdGuardSDNSFilter/AdGuardSDNSFilter_All.list",
-      "output_path": "all/AdGuardSDNSFilter/AdGuardSDNSFilter_All.arrs",
-      "rule_count": 109050,
+      "output_path": "all/AdGuardSDNSFilter/AdGuardSDNSFilter_All_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 0,
       "unsupported_types": {},
       "upstream_updated": "2025-06-06 09:18:32"
     },
     {
-      "name": "AdGuardSDNSFilter",
+      "name": "AdGuardSDNSFilter_02",
+      "source_path": "rule/Surge/AdGuardSDNSFilter/AdGuardSDNSFilter_All.list",
+      "output_path": "all/AdGuardSDNSFilter/AdGuardSDNSFilter_All_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-06-06 09:18:32"
+    },
+    {
+      "name": "AdGuardSDNSFilter_03",
+      "source_path": "rule/Surge/AdGuardSDNSFilter/AdGuardSDNSFilter_All.list",
+      "output_path": "all/AdGuardSDNSFilter/AdGuardSDNSFilter_All_03.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-06-06 09:18:32"
+    },
+    {
+      "name": "AdGuardSDNSFilter_04",
+      "source_path": "rule/Surge/AdGuardSDNSFilter/AdGuardSDNSFilter_All.list",
+      "output_path": "all/AdGuardSDNSFilter/AdGuardSDNSFilter_All_04.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-06-06 09:18:32"
+    },
+    {
+      "name": "AdGuardSDNSFilter_05",
+      "source_path": "rule/Surge/AdGuardSDNSFilter/AdGuardSDNSFilter_All.list",
+      "output_path": "all/AdGuardSDNSFilter/AdGuardSDNSFilter_All_05.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-06-06 09:18:32"
+    },
+    {
+      "name": "AdGuardSDNSFilter_06",
+      "source_path": "rule/Surge/AdGuardSDNSFilter/AdGuardSDNSFilter_All.list",
+      "output_path": "all/AdGuardSDNSFilter/AdGuardSDNSFilter_All_06.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-06-06 09:18:32"
+    },
+    {
+      "name": "AdGuardSDNSFilter_07",
+      "source_path": "rule/Surge/AdGuardSDNSFilter/AdGuardSDNSFilter_All.list",
+      "output_path": "all/AdGuardSDNSFilter/AdGuardSDNSFilter_All_07.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-06-06 09:18:32"
+    },
+    {
+      "name": "AdGuardSDNSFilter_08",
+      "source_path": "rule/Surge/AdGuardSDNSFilter/AdGuardSDNSFilter_All.list",
+      "output_path": "all/AdGuardSDNSFilter/AdGuardSDNSFilter_All_08.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-06-06 09:18:32"
+    },
+    {
+      "name": "AdGuardSDNSFilter_09",
+      "source_path": "rule/Surge/AdGuardSDNSFilter/AdGuardSDNSFilter_All.list",
+      "output_path": "all/AdGuardSDNSFilter/AdGuardSDNSFilter_All_09.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-06-06 09:18:32"
+    },
+    {
+      "name": "AdGuardSDNSFilter_10",
+      "source_path": "rule/Surge/AdGuardSDNSFilter/AdGuardSDNSFilter_All.list",
+      "output_path": "all/AdGuardSDNSFilter/AdGuardSDNSFilter_All_10.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-06-06 09:18:32"
+    },
+    {
+      "name": "AdGuardSDNSFilter_11",
+      "source_path": "rule/Surge/AdGuardSDNSFilter/AdGuardSDNSFilter_All.list",
+      "output_path": "all/AdGuardSDNSFilter/AdGuardSDNSFilter_All_11.arrs",
+      "rule_count": 9050,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-06-06 09:18:32"
+    },
+    {
+      "name": "AdGuardSDNSFilter_01",
       "source_path": "rule/Surge/AdGuardSDNSFilter/AdGuardSDNSFilter_All_No_Resolve.list",
-      "output_path": "all/AdGuardSDNSFilter/AdGuardSDNSFilter_All_No_Resolve.arrs",
-      "rule_count": 109050,
+      "output_path": "all/AdGuardSDNSFilter/AdGuardSDNSFilter_All_No_Resolve_01.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-06-06 09:18:33"
+    },
+    {
+      "name": "AdGuardSDNSFilter_02",
+      "source_path": "rule/Surge/AdGuardSDNSFilter/AdGuardSDNSFilter_All_No_Resolve.list",
+      "output_path": "all/AdGuardSDNSFilter/AdGuardSDNSFilter_All_No_Resolve_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-06-06 09:18:33"
+    },
+    {
+      "name": "AdGuardSDNSFilter_03",
+      "source_path": "rule/Surge/AdGuardSDNSFilter/AdGuardSDNSFilter_All_No_Resolve.list",
+      "output_path": "all/AdGuardSDNSFilter/AdGuardSDNSFilter_All_No_Resolve_03.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-06-06 09:18:33"
+    },
+    {
+      "name": "AdGuardSDNSFilter_04",
+      "source_path": "rule/Surge/AdGuardSDNSFilter/AdGuardSDNSFilter_All_No_Resolve.list",
+      "output_path": "all/AdGuardSDNSFilter/AdGuardSDNSFilter_All_No_Resolve_04.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-06-06 09:18:33"
+    },
+    {
+      "name": "AdGuardSDNSFilter_05",
+      "source_path": "rule/Surge/AdGuardSDNSFilter/AdGuardSDNSFilter_All_No_Resolve.list",
+      "output_path": "all/AdGuardSDNSFilter/AdGuardSDNSFilter_All_No_Resolve_05.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-06-06 09:18:33"
+    },
+    {
+      "name": "AdGuardSDNSFilter_06",
+      "source_path": "rule/Surge/AdGuardSDNSFilter/AdGuardSDNSFilter_All_No_Resolve.list",
+      "output_path": "all/AdGuardSDNSFilter/AdGuardSDNSFilter_All_No_Resolve_06.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-06-06 09:18:33"
+    },
+    {
+      "name": "AdGuardSDNSFilter_07",
+      "source_path": "rule/Surge/AdGuardSDNSFilter/AdGuardSDNSFilter_All_No_Resolve.list",
+      "output_path": "all/AdGuardSDNSFilter/AdGuardSDNSFilter_All_No_Resolve_07.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-06-06 09:18:33"
+    },
+    {
+      "name": "AdGuardSDNSFilter_08",
+      "source_path": "rule/Surge/AdGuardSDNSFilter/AdGuardSDNSFilter_All_No_Resolve.list",
+      "output_path": "all/AdGuardSDNSFilter/AdGuardSDNSFilter_All_No_Resolve_08.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-06-06 09:18:33"
+    },
+    {
+      "name": "AdGuardSDNSFilter_09",
+      "source_path": "rule/Surge/AdGuardSDNSFilter/AdGuardSDNSFilter_All_No_Resolve.list",
+      "output_path": "all/AdGuardSDNSFilter/AdGuardSDNSFilter_All_No_Resolve_09.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-06-06 09:18:33"
+    },
+    {
+      "name": "AdGuardSDNSFilter_10",
+      "source_path": "rule/Surge/AdGuardSDNSFilter/AdGuardSDNSFilter_All_No_Resolve.list",
+      "output_path": "all/AdGuardSDNSFilter/AdGuardSDNSFilter_All_No_Resolve_10.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-06-06 09:18:33"
+    },
+    {
+      "name": "AdGuardSDNSFilter_11",
+      "source_path": "rule/Surge/AdGuardSDNSFilter/AdGuardSDNSFilter_All_No_Resolve.list",
+      "output_path": "all/AdGuardSDNSFilter/AdGuardSDNSFilter_All_No_Resolve_11.arrs",
+      "rule_count": 9050,
       "skipped_count": 0,
       "unsupported_types": {},
       "upstream_updated": "2025-06-06 09:18:33"
@@ -406,10 +586,10 @@
       "upstream_updated": "2026-06-10 02:43:41"
     },
     {
-      "name": "Advertising",
+      "name": "Advertising_01",
       "source_path": "rule/Surge/Advertising/Advertising_All.list",
-      "output_path": "all/Advertising/Advertising_All.arrs",
-      "rule_count": 256452,
+      "output_path": "all/Advertising/Advertising_All_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 15,
       "unsupported_types": {
         "URL-REGEX": 14,
@@ -418,15 +598,465 @@
       "upstream_updated": "2026-06-10 02:43:41"
     },
     {
-      "name": "Advertising",
+      "name": "Advertising_02",
+      "source_path": "rule/Surge/Advertising/Advertising_All.list",
+      "output_path": "all/Advertising/Advertising_All_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_03",
+      "source_path": "rule/Surge/Advertising/Advertising_All.list",
+      "output_path": "all/Advertising/Advertising_All_03.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_04",
+      "source_path": "rule/Surge/Advertising/Advertising_All.list",
+      "output_path": "all/Advertising/Advertising_All_04.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_05",
+      "source_path": "rule/Surge/Advertising/Advertising_All.list",
+      "output_path": "all/Advertising/Advertising_All_05.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_06",
+      "source_path": "rule/Surge/Advertising/Advertising_All.list",
+      "output_path": "all/Advertising/Advertising_All_06.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_07",
+      "source_path": "rule/Surge/Advertising/Advertising_All.list",
+      "output_path": "all/Advertising/Advertising_All_07.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_08",
+      "source_path": "rule/Surge/Advertising/Advertising_All.list",
+      "output_path": "all/Advertising/Advertising_All_08.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_09",
+      "source_path": "rule/Surge/Advertising/Advertising_All.list",
+      "output_path": "all/Advertising/Advertising_All_09.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_10",
+      "source_path": "rule/Surge/Advertising/Advertising_All.list",
+      "output_path": "all/Advertising/Advertising_All_10.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_11",
+      "source_path": "rule/Surge/Advertising/Advertising_All.list",
+      "output_path": "all/Advertising/Advertising_All_11.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_12",
+      "source_path": "rule/Surge/Advertising/Advertising_All.list",
+      "output_path": "all/Advertising/Advertising_All_12.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_13",
+      "source_path": "rule/Surge/Advertising/Advertising_All.list",
+      "output_path": "all/Advertising/Advertising_All_13.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_14",
+      "source_path": "rule/Surge/Advertising/Advertising_All.list",
+      "output_path": "all/Advertising/Advertising_All_14.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_15",
+      "source_path": "rule/Surge/Advertising/Advertising_All.list",
+      "output_path": "all/Advertising/Advertising_All_15.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_16",
+      "source_path": "rule/Surge/Advertising/Advertising_All.list",
+      "output_path": "all/Advertising/Advertising_All_16.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_17",
+      "source_path": "rule/Surge/Advertising/Advertising_All.list",
+      "output_path": "all/Advertising/Advertising_All_17.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_18",
+      "source_path": "rule/Surge/Advertising/Advertising_All.list",
+      "output_path": "all/Advertising/Advertising_All_18.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_19",
+      "source_path": "rule/Surge/Advertising/Advertising_All.list",
+      "output_path": "all/Advertising/Advertising_All_19.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_20",
+      "source_path": "rule/Surge/Advertising/Advertising_All.list",
+      "output_path": "all/Advertising/Advertising_All_20.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_21",
+      "source_path": "rule/Surge/Advertising/Advertising_All.list",
+      "output_path": "all/Advertising/Advertising_All_21.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_22",
+      "source_path": "rule/Surge/Advertising/Advertising_All.list",
+      "output_path": "all/Advertising/Advertising_All_22.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_23",
+      "source_path": "rule/Surge/Advertising/Advertising_All.list",
+      "output_path": "all/Advertising/Advertising_All_23.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_24",
+      "source_path": "rule/Surge/Advertising/Advertising_All.list",
+      "output_path": "all/Advertising/Advertising_All_24.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_25",
+      "source_path": "rule/Surge/Advertising/Advertising_All.list",
+      "output_path": "all/Advertising/Advertising_All_25.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_26",
+      "source_path": "rule/Surge/Advertising/Advertising_All.list",
+      "output_path": "all/Advertising/Advertising_All_26.arrs",
+      "rule_count": 6452,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_01",
       "source_path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
-      "output_path": "all/Advertising/Advertising_All_No_Resolve.arrs",
-      "rule_count": 256452,
+      "output_path": "all/Advertising/Advertising_All_No_Resolve_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 15,
       "unsupported_types": {
         "URL-REGEX": 14,
         "AND": 1
       },
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_02",
+      "source_path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
+      "output_path": "all/Advertising/Advertising_All_No_Resolve_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_03",
+      "source_path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
+      "output_path": "all/Advertising/Advertising_All_No_Resolve_03.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_04",
+      "source_path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
+      "output_path": "all/Advertising/Advertising_All_No_Resolve_04.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_05",
+      "source_path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
+      "output_path": "all/Advertising/Advertising_All_No_Resolve_05.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_06",
+      "source_path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
+      "output_path": "all/Advertising/Advertising_All_No_Resolve_06.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_07",
+      "source_path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
+      "output_path": "all/Advertising/Advertising_All_No_Resolve_07.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_08",
+      "source_path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
+      "output_path": "all/Advertising/Advertising_All_No_Resolve_08.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_09",
+      "source_path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
+      "output_path": "all/Advertising/Advertising_All_No_Resolve_09.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_10",
+      "source_path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
+      "output_path": "all/Advertising/Advertising_All_No_Resolve_10.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_11",
+      "source_path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
+      "output_path": "all/Advertising/Advertising_All_No_Resolve_11.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_12",
+      "source_path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
+      "output_path": "all/Advertising/Advertising_All_No_Resolve_12.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_13",
+      "source_path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
+      "output_path": "all/Advertising/Advertising_All_No_Resolve_13.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_14",
+      "source_path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
+      "output_path": "all/Advertising/Advertising_All_No_Resolve_14.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_15",
+      "source_path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
+      "output_path": "all/Advertising/Advertising_All_No_Resolve_15.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_16",
+      "source_path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
+      "output_path": "all/Advertising/Advertising_All_No_Resolve_16.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_17",
+      "source_path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
+      "output_path": "all/Advertising/Advertising_All_No_Resolve_17.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_18",
+      "source_path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
+      "output_path": "all/Advertising/Advertising_All_No_Resolve_18.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_19",
+      "source_path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
+      "output_path": "all/Advertising/Advertising_All_No_Resolve_19.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_20",
+      "source_path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
+      "output_path": "all/Advertising/Advertising_All_No_Resolve_20.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_21",
+      "source_path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
+      "output_path": "all/Advertising/Advertising_All_No_Resolve_21.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_22",
+      "source_path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
+      "output_path": "all/Advertising/Advertising_All_No_Resolve_22.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_23",
+      "source_path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
+      "output_path": "all/Advertising/Advertising_All_No_Resolve_23.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_24",
+      "source_path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
+      "output_path": "all/Advertising/Advertising_All_No_Resolve_24.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_25",
+      "source_path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
+      "output_path": "all/Advertising/Advertising_All_No_Resolve_25.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:43:41"
+    },
+    {
+      "name": "Advertising_26",
+      "source_path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
+      "output_path": "all/Advertising/Advertising_All_No_Resolve_26.arrs",
+      "rule_count": 6452,
+      "skipped_count": 0,
+      "unsupported_types": {},
       "upstream_updated": "2026-06-10 02:43:41"
     },
     {
@@ -465,10 +1095,10 @@
       "upstream_updated": "2025-12-08 02:03:37"
     },
     {
-      "name": "AdvertisingLite",
+      "name": "AdvertisingLite_01",
       "source_path": "rule/Surge/AdvertisingLite/AdvertisingLite_All.list",
-      "output_path": "all/AdvertisingLite/AdvertisingLite_All.arrs",
-      "rule_count": 38066,
+      "output_path": "all/AdvertisingLite/AdvertisingLite_All_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 3,
       "unsupported_types": {
         "URL-REGEX": 2,
@@ -477,15 +1107,69 @@
       "upstream_updated": "2025-12-08 02:03:37"
     },
     {
-      "name": "AdvertisingLite",
+      "name": "AdvertisingLite_02",
+      "source_path": "rule/Surge/AdvertisingLite/AdvertisingLite_All.list",
+      "output_path": "all/AdvertisingLite/AdvertisingLite_All_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-12-08 02:03:37"
+    },
+    {
+      "name": "AdvertisingLite_03",
+      "source_path": "rule/Surge/AdvertisingLite/AdvertisingLite_All.list",
+      "output_path": "all/AdvertisingLite/AdvertisingLite_All_03.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-12-08 02:03:37"
+    },
+    {
+      "name": "AdvertisingLite_04",
+      "source_path": "rule/Surge/AdvertisingLite/AdvertisingLite_All.list",
+      "output_path": "all/AdvertisingLite/AdvertisingLite_All_04.arrs",
+      "rule_count": 8066,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-12-08 02:03:37"
+    },
+    {
+      "name": "AdvertisingLite_01",
       "source_path": "rule/Surge/AdvertisingLite/AdvertisingLite_All_No_Resolve.list",
-      "output_path": "all/AdvertisingLite/AdvertisingLite_All_No_Resolve.arrs",
-      "rule_count": 38066,
+      "output_path": "all/AdvertisingLite/AdvertisingLite_All_No_Resolve_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 3,
       "unsupported_types": {
         "URL-REGEX": 2,
         "AND": 1
       },
+      "upstream_updated": "2025-12-08 02:03:37"
+    },
+    {
+      "name": "AdvertisingLite_02",
+      "source_path": "rule/Surge/AdvertisingLite/AdvertisingLite_All_No_Resolve.list",
+      "output_path": "all/AdvertisingLite/AdvertisingLite_All_No_Resolve_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-12-08 02:03:37"
+    },
+    {
+      "name": "AdvertisingLite_03",
+      "source_path": "rule/Surge/AdvertisingLite/AdvertisingLite_All_No_Resolve.list",
+      "output_path": "all/AdvertisingLite/AdvertisingLite_All_No_Resolve_03.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-12-08 02:03:37"
+    },
+    {
+      "name": "AdvertisingLite_04",
+      "source_path": "rule/Surge/AdvertisingLite/AdvertisingLite_All_No_Resolve.list",
+      "output_path": "all/AdvertisingLite/AdvertisingLite_All_No_Resolve_04.arrs",
+      "rule_count": 8066,
+      "skipped_count": 0,
+      "unsupported_types": {},
       "upstream_updated": "2025-12-08 02:03:37"
     },
     {
@@ -533,10 +1217,10 @@
       "upstream_updated": "2026-06-10 02:45:36"
     },
     {
-      "name": "AdvertisingTest",
+      "name": "AdvertisingTest_01",
       "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
-      "output_path": "all/AdvertisingTest/AdvertisingTest_All.arrs",
-      "rule_count": 280880,
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 15,
       "unsupported_types": {
         "URL-REGEX": 14,
@@ -545,15 +1229,519 @@
       "upstream_updated": "2026-06-10 02:45:36"
     },
     {
-      "name": "AdvertisingTest",
+      "name": "AdvertisingTest_02",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_03",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_03.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_04",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_04.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_05",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_05.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_06",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_06.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_07",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_07.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_08",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_08.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_09",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_09.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_10",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_10.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_11",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_11.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_12",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_12.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_13",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_13.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_14",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_14.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_15",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_15.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_16",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_16.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_17",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_17.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_18",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_18.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_19",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_19.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_20",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_20.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_21",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_21.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_22",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_22.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_23",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_23.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_24",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_24.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_25",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_25.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_26",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_26.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_27",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_27.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_28",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_28.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_29",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_29.arrs",
+      "rule_count": 880,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_01",
       "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
-      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve.arrs",
-      "rule_count": 280880,
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 15,
       "unsupported_types": {
         "URL-REGEX": 14,
         "AND": 1
       },
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_02",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_03",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_03.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_04",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_04.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_05",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_05.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_06",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_06.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_07",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_07.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_08",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_08.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_09",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_09.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_10",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_10.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_11",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_11.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_12",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_12.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_13",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_13.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_14",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_14.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_15",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_15.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_16",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_16.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_17",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_17.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_18",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_18.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_19",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_19.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_20",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_20.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_21",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_21.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_22",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_22.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_23",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_23.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_24",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_24.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_25",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_25.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_26",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_26.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_27",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_27.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_28",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_28.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:45:36"
+    },
+    {
+      "name": "AdvertisingTest_29",
+      "source_path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "output_path": "all/AdvertisingTest/AdvertisingTest_All_No_Resolve_29.arrs",
+      "rule_count": 880,
+      "skipped_count": 0,
+      "unsupported_types": {},
       "upstream_updated": "2026-06-10 02:45:36"
     },
     {
@@ -1815,73 +3003,199 @@
       "upstream_updated": "2025-06-06 09:20:01"
     },
     {
-      "name": "ChinaIPs",
+      "name": "ChinaIPs_01",
       "source_path": "rule/Surge/ChinaIPs/ChinaIPs.list",
-      "output_path": "all/ChinaIPs/ChinaIPs.arrs",
-      "rule_count": 22794,
+      "output_path": "all/ChinaIPs/ChinaIPs_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 0,
       "unsupported_types": {},
       "upstream_updated": "2026-06-10 02:48:15"
     },
     {
-      "name": "ChinaIPs",
+      "name": "ChinaIPs_02",
+      "source_path": "rule/Surge/ChinaIPs/ChinaIPs.list",
+      "output_path": "all/ChinaIPs/ChinaIPs_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:15"
+    },
+    {
+      "name": "ChinaIPs_03",
+      "source_path": "rule/Surge/ChinaIPs/ChinaIPs.list",
+      "output_path": "all/ChinaIPs/ChinaIPs_03.arrs",
+      "rule_count": 2794,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:15"
+    },
+    {
+      "name": "ChinaIPs_01",
       "source_path": "rule/Surge/ChinaIPs/ChinaIPs_No_IPv6.list",
-      "output_path": "all/ChinaIPs/ChinaIPs_No_IPv6.arrs",
-      "rule_count": 17385,
+      "output_path": "all/ChinaIPs/ChinaIPs_No_IPv6_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 0,
       "unsupported_types": {},
       "upstream_updated": "2026-06-10 02:48:15"
     },
     {
-      "name": "ChinaIPs",
+      "name": "ChinaIPs_02",
+      "source_path": "rule/Surge/ChinaIPs/ChinaIPs_No_IPv6.list",
+      "output_path": "all/ChinaIPs/ChinaIPs_No_IPv6_02.arrs",
+      "rule_count": 7385,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:15"
+    },
+    {
+      "name": "ChinaIPs_01",
       "source_path": "rule/Surge/ChinaIPs/ChinaIPs_No_IPv6_Resolve.list",
-      "output_path": "all/ChinaIPs/ChinaIPs_No_IPv6_Resolve.arrs",
-      "rule_count": 17385,
+      "output_path": "all/ChinaIPs/ChinaIPs_No_IPv6_Resolve_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 0,
       "unsupported_types": {},
       "upstream_updated": "2026-06-10 02:48:15"
     },
     {
-      "name": "ChinaIPs",
+      "name": "ChinaIPs_02",
+      "source_path": "rule/Surge/ChinaIPs/ChinaIPs_No_IPv6_Resolve.list",
+      "output_path": "all/ChinaIPs/ChinaIPs_No_IPv6_Resolve_02.arrs",
+      "rule_count": 7385,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:15"
+    },
+    {
+      "name": "ChinaIPs_01",
       "source_path": "rule/Surge/ChinaIPs/ChinaIPs_Resolve.list",
-      "output_path": "all/ChinaIPs/ChinaIPs_Resolve.arrs",
-      "rule_count": 22794,
+      "output_path": "all/ChinaIPs/ChinaIPs_Resolve_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 0,
       "unsupported_types": {},
       "upstream_updated": "2026-06-10 02:48:15"
     },
     {
-      "name": "ChinaIPsTest",
+      "name": "ChinaIPs_02",
+      "source_path": "rule/Surge/ChinaIPs/ChinaIPs_Resolve.list",
+      "output_path": "all/ChinaIPs/ChinaIPs_Resolve_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:15"
+    },
+    {
+      "name": "ChinaIPs_03",
+      "source_path": "rule/Surge/ChinaIPs/ChinaIPs_Resolve.list",
+      "output_path": "all/ChinaIPs/ChinaIPs_Resolve_03.arrs",
+      "rule_count": 2794,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:15"
+    },
+    {
+      "name": "ChinaIPsTest_01",
       "source_path": "rule/Surge/ChinaIPs/ChinaIPsTest/ChinaIPsTest.list",
-      "output_path": "all/ChinaIPs/ChinaIPsTest/ChinaIPsTest.arrs",
-      "rule_count": 29382,
+      "output_path": "all/ChinaIPs/ChinaIPsTest/ChinaIPsTest_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 0,
       "unsupported_types": {},
       "upstream_updated": "2026-06-10 02:49:16"
     },
     {
-      "name": "ChinaIPsTest",
+      "name": "ChinaIPsTest_02",
+      "source_path": "rule/Surge/ChinaIPs/ChinaIPsTest/ChinaIPsTest.list",
+      "output_path": "all/ChinaIPs/ChinaIPsTest/ChinaIPsTest_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:16"
+    },
+    {
+      "name": "ChinaIPsTest_03",
+      "source_path": "rule/Surge/ChinaIPs/ChinaIPsTest/ChinaIPsTest.list",
+      "output_path": "all/ChinaIPs/ChinaIPsTest/ChinaIPsTest_03.arrs",
+      "rule_count": 9382,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:16"
+    },
+    {
+      "name": "ChinaIPsTest_01",
       "source_path": "rule/Surge/ChinaIPs/ChinaIPsTest/ChinaIPsTest_No_IPv6.list",
-      "output_path": "all/ChinaIPs/ChinaIPsTest/ChinaIPsTest_No_IPv6.arrs",
-      "rule_count": 22826,
+      "output_path": "all/ChinaIPs/ChinaIPsTest/ChinaIPsTest_No_IPv6_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 0,
       "unsupported_types": {},
       "upstream_updated": "2026-06-10 02:49:16"
     },
     {
-      "name": "ChinaIPsTest",
+      "name": "ChinaIPsTest_02",
+      "source_path": "rule/Surge/ChinaIPs/ChinaIPsTest/ChinaIPsTest_No_IPv6.list",
+      "output_path": "all/ChinaIPs/ChinaIPsTest/ChinaIPsTest_No_IPv6_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:16"
+    },
+    {
+      "name": "ChinaIPsTest_03",
+      "source_path": "rule/Surge/ChinaIPs/ChinaIPsTest/ChinaIPsTest_No_IPv6.list",
+      "output_path": "all/ChinaIPs/ChinaIPsTest/ChinaIPsTest_No_IPv6_03.arrs",
+      "rule_count": 2826,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:16"
+    },
+    {
+      "name": "ChinaIPsTest_01",
       "source_path": "rule/Surge/ChinaIPs/ChinaIPsTest/ChinaIPsTest_No_IPv6_Resolve.list",
-      "output_path": "all/ChinaIPs/ChinaIPsTest/ChinaIPsTest_No_IPv6_Resolve.arrs",
-      "rule_count": 22826,
+      "output_path": "all/ChinaIPs/ChinaIPsTest/ChinaIPsTest_No_IPv6_Resolve_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 0,
       "unsupported_types": {},
       "upstream_updated": "2026-06-10 02:49:16"
     },
     {
-      "name": "ChinaIPsTest",
+      "name": "ChinaIPsTest_02",
+      "source_path": "rule/Surge/ChinaIPs/ChinaIPsTest/ChinaIPsTest_No_IPv6_Resolve.list",
+      "output_path": "all/ChinaIPs/ChinaIPsTest/ChinaIPsTest_No_IPv6_Resolve_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:16"
+    },
+    {
+      "name": "ChinaIPsTest_03",
+      "source_path": "rule/Surge/ChinaIPs/ChinaIPsTest/ChinaIPsTest_No_IPv6_Resolve.list",
+      "output_path": "all/ChinaIPs/ChinaIPsTest/ChinaIPsTest_No_IPv6_Resolve_03.arrs",
+      "rule_count": 2826,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:16"
+    },
+    {
+      "name": "ChinaIPsTest_01",
       "source_path": "rule/Surge/ChinaIPs/ChinaIPsTest/ChinaIPsTest_Resolve.list",
-      "output_path": "all/ChinaIPs/ChinaIPsTest/ChinaIPsTest_Resolve.arrs",
-      "rule_count": 29382,
+      "output_path": "all/ChinaIPs/ChinaIPsTest/ChinaIPsTest_Resolve_01.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:16"
+    },
+    {
+      "name": "ChinaIPsTest_02",
+      "source_path": "rule/Surge/ChinaIPs/ChinaIPsTest/ChinaIPsTest_Resolve.list",
+      "output_path": "all/ChinaIPs/ChinaIPsTest/ChinaIPsTest_Resolve_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:16"
+    },
+    {
+      "name": "ChinaIPsTest_03",
+      "source_path": "rule/Surge/ChinaIPs/ChinaIPsTest/ChinaIPsTest_Resolve.list",
+      "output_path": "all/ChinaIPs/ChinaIPsTest/ChinaIPsTest_Resolve_03.arrs",
+      "rule_count": 9382,
       "skipped_count": 0,
       "unsupported_types": {},
       "upstream_updated": "2026-06-10 02:49:16"
@@ -1905,10 +3219,10 @@
       "upstream_updated": "2026-06-06 02:42:46"
     },
     {
-      "name": "ChinaMax",
+      "name": "ChinaMax_01",
       "source_path": "rule/Surge/ChinaMax/ChinaMax.list",
-      "output_path": "all/ChinaMax/ChinaMax.arrs",
-      "rule_count": 12383,
+      "output_path": "all/ChinaMax/ChinaMax_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 78,
       "unsupported_types": {
         "IP-ASN": 1,
@@ -1918,10 +3232,19 @@
       "upstream_updated": "2026-06-10 02:48:56"
     },
     {
-      "name": "ChinaMax",
+      "name": "ChinaMax_02",
+      "source_path": "rule/Surge/ChinaMax/ChinaMax.list",
+      "output_path": "all/ChinaMax/ChinaMax_02.arrs",
+      "rule_count": 2383,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:56"
+    },
+    {
+      "name": "ChinaMax_01",
       "source_path": "rule/Surge/ChinaMax/ChinaMax_All.list",
-      "output_path": "all/ChinaMax/ChinaMax_All.arrs",
-      "rule_count": 125461,
+      "output_path": "all/ChinaMax/ChinaMax_All_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 78,
       "unsupported_types": {
         "IP-ASN": 1,
@@ -1931,16 +3254,232 @@
       "upstream_updated": "2026-06-10 02:48:56"
     },
     {
-      "name": "ChinaMax",
+      "name": "ChinaMax_02",
+      "source_path": "rule/Surge/ChinaMax/ChinaMax_All.list",
+      "output_path": "all/ChinaMax/ChinaMax_All_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:56"
+    },
+    {
+      "name": "ChinaMax_03",
+      "source_path": "rule/Surge/ChinaMax/ChinaMax_All.list",
+      "output_path": "all/ChinaMax/ChinaMax_All_03.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:56"
+    },
+    {
+      "name": "ChinaMax_04",
+      "source_path": "rule/Surge/ChinaMax/ChinaMax_All.list",
+      "output_path": "all/ChinaMax/ChinaMax_All_04.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:56"
+    },
+    {
+      "name": "ChinaMax_05",
+      "source_path": "rule/Surge/ChinaMax/ChinaMax_All.list",
+      "output_path": "all/ChinaMax/ChinaMax_All_05.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:56"
+    },
+    {
+      "name": "ChinaMax_06",
+      "source_path": "rule/Surge/ChinaMax/ChinaMax_All.list",
+      "output_path": "all/ChinaMax/ChinaMax_All_06.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:56"
+    },
+    {
+      "name": "ChinaMax_07",
+      "source_path": "rule/Surge/ChinaMax/ChinaMax_All.list",
+      "output_path": "all/ChinaMax/ChinaMax_All_07.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:56"
+    },
+    {
+      "name": "ChinaMax_08",
+      "source_path": "rule/Surge/ChinaMax/ChinaMax_All.list",
+      "output_path": "all/ChinaMax/ChinaMax_All_08.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:56"
+    },
+    {
+      "name": "ChinaMax_09",
+      "source_path": "rule/Surge/ChinaMax/ChinaMax_All.list",
+      "output_path": "all/ChinaMax/ChinaMax_All_09.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:56"
+    },
+    {
+      "name": "ChinaMax_10",
+      "source_path": "rule/Surge/ChinaMax/ChinaMax_All.list",
+      "output_path": "all/ChinaMax/ChinaMax_All_10.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:56"
+    },
+    {
+      "name": "ChinaMax_11",
+      "source_path": "rule/Surge/ChinaMax/ChinaMax_All.list",
+      "output_path": "all/ChinaMax/ChinaMax_All_11.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:56"
+    },
+    {
+      "name": "ChinaMax_12",
+      "source_path": "rule/Surge/ChinaMax/ChinaMax_All.list",
+      "output_path": "all/ChinaMax/ChinaMax_All_12.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:56"
+    },
+    {
+      "name": "ChinaMax_13",
+      "source_path": "rule/Surge/ChinaMax/ChinaMax_All.list",
+      "output_path": "all/ChinaMax/ChinaMax_All_13.arrs",
+      "rule_count": 5461,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:56"
+    },
+    {
+      "name": "ChinaMax_01",
       "source_path": "rule/Surge/ChinaMax/ChinaMax_All_No_Resolve.list",
-      "output_path": "all/ChinaMax/ChinaMax_All_No_Resolve.arrs",
-      "rule_count": 125461,
+      "output_path": "all/ChinaMax/ChinaMax_All_No_Resolve_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 78,
       "unsupported_types": {
         "IP-ASN": 1,
         "USER-AGENT": 65,
         "PROCESS-NAME": 12
       },
+      "upstream_updated": "2026-06-10 02:48:56"
+    },
+    {
+      "name": "ChinaMax_02",
+      "source_path": "rule/Surge/ChinaMax/ChinaMax_All_No_Resolve.list",
+      "output_path": "all/ChinaMax/ChinaMax_All_No_Resolve_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:56"
+    },
+    {
+      "name": "ChinaMax_03",
+      "source_path": "rule/Surge/ChinaMax/ChinaMax_All_No_Resolve.list",
+      "output_path": "all/ChinaMax/ChinaMax_All_No_Resolve_03.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:56"
+    },
+    {
+      "name": "ChinaMax_04",
+      "source_path": "rule/Surge/ChinaMax/ChinaMax_All_No_Resolve.list",
+      "output_path": "all/ChinaMax/ChinaMax_All_No_Resolve_04.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:56"
+    },
+    {
+      "name": "ChinaMax_05",
+      "source_path": "rule/Surge/ChinaMax/ChinaMax_All_No_Resolve.list",
+      "output_path": "all/ChinaMax/ChinaMax_All_No_Resolve_05.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:56"
+    },
+    {
+      "name": "ChinaMax_06",
+      "source_path": "rule/Surge/ChinaMax/ChinaMax_All_No_Resolve.list",
+      "output_path": "all/ChinaMax/ChinaMax_All_No_Resolve_06.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:56"
+    },
+    {
+      "name": "ChinaMax_07",
+      "source_path": "rule/Surge/ChinaMax/ChinaMax_All_No_Resolve.list",
+      "output_path": "all/ChinaMax/ChinaMax_All_No_Resolve_07.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:56"
+    },
+    {
+      "name": "ChinaMax_08",
+      "source_path": "rule/Surge/ChinaMax/ChinaMax_All_No_Resolve.list",
+      "output_path": "all/ChinaMax/ChinaMax_All_No_Resolve_08.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:56"
+    },
+    {
+      "name": "ChinaMax_09",
+      "source_path": "rule/Surge/ChinaMax/ChinaMax_All_No_Resolve.list",
+      "output_path": "all/ChinaMax/ChinaMax_All_No_Resolve_09.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:56"
+    },
+    {
+      "name": "ChinaMax_10",
+      "source_path": "rule/Surge/ChinaMax/ChinaMax_All_No_Resolve.list",
+      "output_path": "all/ChinaMax/ChinaMax_All_No_Resolve_10.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:56"
+    },
+    {
+      "name": "ChinaMax_11",
+      "source_path": "rule/Surge/ChinaMax/ChinaMax_All_No_Resolve.list",
+      "output_path": "all/ChinaMax/ChinaMax_All_No_Resolve_11.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:56"
+    },
+    {
+      "name": "ChinaMax_12",
+      "source_path": "rule/Surge/ChinaMax/ChinaMax_All_No_Resolve.list",
+      "output_path": "all/ChinaMax/ChinaMax_All_No_Resolve_12.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:56"
+    },
+    {
+      "name": "ChinaMax_13",
+      "source_path": "rule/Surge/ChinaMax/ChinaMax_All_No_Resolve.list",
+      "output_path": "all/ChinaMax/ChinaMax_All_No_Resolve_13.arrs",
+      "rule_count": 5461,
+      "skipped_count": 0,
+      "unsupported_types": {},
       "upstream_updated": "2026-06-10 02:48:56"
     },
     {
@@ -1981,16 +3520,25 @@
       "upstream_updated": "2026-06-10 02:48:56"
     },
     {
-      "name": "ChinaMax",
+      "name": "ChinaMax_01",
       "source_path": "rule/Surge/ChinaMax/ChinaMax_Resolve.list",
-      "output_path": "all/ChinaMax/ChinaMax_Resolve.arrs",
-      "rule_count": 12383,
+      "output_path": "all/ChinaMax/ChinaMax_Resolve_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 78,
       "unsupported_types": {
         "IP-ASN": 1,
         "USER-AGENT": 65,
         "PROCESS-NAME": 12
       },
+      "upstream_updated": "2026-06-10 02:48:56"
+    },
+    {
+      "name": "ChinaMax_02",
+      "source_path": "rule/Surge/ChinaMax/ChinaMax_Resolve.list",
+      "output_path": "all/ChinaMax/ChinaMax_Resolve_02.arrs",
+      "rule_count": 2383,
+      "skipped_count": 0,
+      "unsupported_types": {},
       "upstream_updated": "2026-06-10 02:48:56"
     },
     {
@@ -2006,10 +3554,10 @@
       "upstream_updated": "2026-06-10 02:49:28"
     },
     {
-      "name": "ChinaMaxNoIP",
+      "name": "ChinaMaxNoIP_01",
       "source_path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All.list",
-      "output_path": "all/ChinaMaxNoIP/ChinaMaxNoIP_All.arrs",
-      "rule_count": 112807,
+      "output_path": "all/ChinaMaxNoIP/ChinaMaxNoIP_All_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 77,
       "unsupported_types": {
         "USER-AGENT": 65,
@@ -2018,15 +3566,213 @@
       "upstream_updated": "2026-06-10 02:49:28"
     },
     {
-      "name": "ChinaMaxNoIP",
+      "name": "ChinaMaxNoIP_02",
+      "source_path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All.list",
+      "output_path": "all/ChinaMaxNoIP/ChinaMaxNoIP_All_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:28"
+    },
+    {
+      "name": "ChinaMaxNoIP_03",
+      "source_path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All.list",
+      "output_path": "all/ChinaMaxNoIP/ChinaMaxNoIP_All_03.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:28"
+    },
+    {
+      "name": "ChinaMaxNoIP_04",
+      "source_path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All.list",
+      "output_path": "all/ChinaMaxNoIP/ChinaMaxNoIP_All_04.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:28"
+    },
+    {
+      "name": "ChinaMaxNoIP_05",
+      "source_path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All.list",
+      "output_path": "all/ChinaMaxNoIP/ChinaMaxNoIP_All_05.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:28"
+    },
+    {
+      "name": "ChinaMaxNoIP_06",
+      "source_path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All.list",
+      "output_path": "all/ChinaMaxNoIP/ChinaMaxNoIP_All_06.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:28"
+    },
+    {
+      "name": "ChinaMaxNoIP_07",
+      "source_path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All.list",
+      "output_path": "all/ChinaMaxNoIP/ChinaMaxNoIP_All_07.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:28"
+    },
+    {
+      "name": "ChinaMaxNoIP_08",
+      "source_path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All.list",
+      "output_path": "all/ChinaMaxNoIP/ChinaMaxNoIP_All_08.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:28"
+    },
+    {
+      "name": "ChinaMaxNoIP_09",
+      "source_path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All.list",
+      "output_path": "all/ChinaMaxNoIP/ChinaMaxNoIP_All_09.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:28"
+    },
+    {
+      "name": "ChinaMaxNoIP_10",
+      "source_path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All.list",
+      "output_path": "all/ChinaMaxNoIP/ChinaMaxNoIP_All_10.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:28"
+    },
+    {
+      "name": "ChinaMaxNoIP_11",
+      "source_path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All.list",
+      "output_path": "all/ChinaMaxNoIP/ChinaMaxNoIP_All_11.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:28"
+    },
+    {
+      "name": "ChinaMaxNoIP_12",
+      "source_path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All.list",
+      "output_path": "all/ChinaMaxNoIP/ChinaMaxNoIP_All_12.arrs",
+      "rule_count": 2807,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:28"
+    },
+    {
+      "name": "ChinaMaxNoIP_01",
       "source_path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All_No_Resolve.list",
-      "output_path": "all/ChinaMaxNoIP/ChinaMaxNoIP_All_No_Resolve.arrs",
-      "rule_count": 112807,
+      "output_path": "all/ChinaMaxNoIP/ChinaMaxNoIP_All_No_Resolve_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 77,
       "unsupported_types": {
         "USER-AGENT": 65,
         "PROCESS-NAME": 12
       },
+      "upstream_updated": "2026-06-10 02:49:28"
+    },
+    {
+      "name": "ChinaMaxNoIP_02",
+      "source_path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All_No_Resolve.list",
+      "output_path": "all/ChinaMaxNoIP/ChinaMaxNoIP_All_No_Resolve_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:28"
+    },
+    {
+      "name": "ChinaMaxNoIP_03",
+      "source_path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All_No_Resolve.list",
+      "output_path": "all/ChinaMaxNoIP/ChinaMaxNoIP_All_No_Resolve_03.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:28"
+    },
+    {
+      "name": "ChinaMaxNoIP_04",
+      "source_path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All_No_Resolve.list",
+      "output_path": "all/ChinaMaxNoIP/ChinaMaxNoIP_All_No_Resolve_04.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:28"
+    },
+    {
+      "name": "ChinaMaxNoIP_05",
+      "source_path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All_No_Resolve.list",
+      "output_path": "all/ChinaMaxNoIP/ChinaMaxNoIP_All_No_Resolve_05.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:28"
+    },
+    {
+      "name": "ChinaMaxNoIP_06",
+      "source_path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All_No_Resolve.list",
+      "output_path": "all/ChinaMaxNoIP/ChinaMaxNoIP_All_No_Resolve_06.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:28"
+    },
+    {
+      "name": "ChinaMaxNoIP_07",
+      "source_path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All_No_Resolve.list",
+      "output_path": "all/ChinaMaxNoIP/ChinaMaxNoIP_All_No_Resolve_07.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:28"
+    },
+    {
+      "name": "ChinaMaxNoIP_08",
+      "source_path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All_No_Resolve.list",
+      "output_path": "all/ChinaMaxNoIP/ChinaMaxNoIP_All_No_Resolve_08.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:28"
+    },
+    {
+      "name": "ChinaMaxNoIP_09",
+      "source_path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All_No_Resolve.list",
+      "output_path": "all/ChinaMaxNoIP/ChinaMaxNoIP_All_No_Resolve_09.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:28"
+    },
+    {
+      "name": "ChinaMaxNoIP_10",
+      "source_path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All_No_Resolve.list",
+      "output_path": "all/ChinaMaxNoIP/ChinaMaxNoIP_All_No_Resolve_10.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:28"
+    },
+    {
+      "name": "ChinaMaxNoIP_11",
+      "source_path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All_No_Resolve.list",
+      "output_path": "all/ChinaMaxNoIP/ChinaMaxNoIP_All_No_Resolve_11.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:49:28"
+    },
+    {
+      "name": "ChinaMaxNoIP_12",
+      "source_path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All_No_Resolve.list",
+      "output_path": "all/ChinaMaxNoIP/ChinaMaxNoIP_All_No_Resolve_12.arrs",
+      "rule_count": 2807,
+      "skipped_count": 0,
+      "unsupported_types": {},
       "upstream_updated": "2026-06-10 02:49:28"
     },
     {
@@ -2041,10 +3787,10 @@
       "upstream_updated": "2026-06-10 02:49:27"
     },
     {
-      "name": "ChinaMaxNoMedia",
+      "name": "ChinaMaxNoMedia_01",
       "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia.list",
-      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia.arrs",
-      "rule_count": 12378,
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 78,
       "unsupported_types": {
         "IP-ASN": 1,
@@ -2054,10 +3800,19 @@
       "upstream_updated": "2026-06-10 02:50:00"
     },
     {
-      "name": "ChinaMaxNoMedia",
+      "name": "ChinaMaxNoMedia_02",
+      "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia.list",
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_02.arrs",
+      "rule_count": 2378,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:50:00"
+    },
+    {
+      "name": "ChinaMaxNoMedia_01",
       "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All.list",
-      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All.arrs",
-      "rule_count": 125022,
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 78,
       "unsupported_types": {
         "IP-ASN": 1,
@@ -2067,16 +3822,232 @@
       "upstream_updated": "2026-06-10 02:50:00"
     },
     {
-      "name": "ChinaMaxNoMedia",
+      "name": "ChinaMaxNoMedia_02",
+      "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All.list",
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:50:00"
+    },
+    {
+      "name": "ChinaMaxNoMedia_03",
+      "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All.list",
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_03.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:50:00"
+    },
+    {
+      "name": "ChinaMaxNoMedia_04",
+      "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All.list",
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_04.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:50:00"
+    },
+    {
+      "name": "ChinaMaxNoMedia_05",
+      "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All.list",
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_05.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:50:00"
+    },
+    {
+      "name": "ChinaMaxNoMedia_06",
+      "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All.list",
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_06.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:50:00"
+    },
+    {
+      "name": "ChinaMaxNoMedia_07",
+      "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All.list",
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_07.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:50:00"
+    },
+    {
+      "name": "ChinaMaxNoMedia_08",
+      "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All.list",
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_08.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:50:00"
+    },
+    {
+      "name": "ChinaMaxNoMedia_09",
+      "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All.list",
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_09.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:50:00"
+    },
+    {
+      "name": "ChinaMaxNoMedia_10",
+      "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All.list",
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_10.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:50:00"
+    },
+    {
+      "name": "ChinaMaxNoMedia_11",
+      "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All.list",
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_11.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:50:00"
+    },
+    {
+      "name": "ChinaMaxNoMedia_12",
+      "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All.list",
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_12.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:50:00"
+    },
+    {
+      "name": "ChinaMaxNoMedia_13",
+      "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All.list",
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_13.arrs",
+      "rule_count": 5022,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:50:00"
+    },
+    {
+      "name": "ChinaMaxNoMedia_01",
       "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve.list",
-      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve.arrs",
-      "rule_count": 125022,
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 78,
       "unsupported_types": {
         "IP-ASN": 1,
         "USER-AGENT": 65,
         "PROCESS-NAME": 12
       },
+      "upstream_updated": "2026-06-10 02:50:00"
+    },
+    {
+      "name": "ChinaMaxNoMedia_02",
+      "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve.list",
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:50:00"
+    },
+    {
+      "name": "ChinaMaxNoMedia_03",
+      "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve.list",
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve_03.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:50:00"
+    },
+    {
+      "name": "ChinaMaxNoMedia_04",
+      "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve.list",
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve_04.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:50:00"
+    },
+    {
+      "name": "ChinaMaxNoMedia_05",
+      "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve.list",
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve_05.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:50:00"
+    },
+    {
+      "name": "ChinaMaxNoMedia_06",
+      "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve.list",
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve_06.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:50:00"
+    },
+    {
+      "name": "ChinaMaxNoMedia_07",
+      "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve.list",
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve_07.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:50:00"
+    },
+    {
+      "name": "ChinaMaxNoMedia_08",
+      "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve.list",
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve_08.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:50:00"
+    },
+    {
+      "name": "ChinaMaxNoMedia_09",
+      "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve.list",
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve_09.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:50:00"
+    },
+    {
+      "name": "ChinaMaxNoMedia_10",
+      "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve.list",
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve_10.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:50:00"
+    },
+    {
+      "name": "ChinaMaxNoMedia_11",
+      "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve.list",
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve_11.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:50:00"
+    },
+    {
+      "name": "ChinaMaxNoMedia_12",
+      "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve.list",
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve_12.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:50:00"
+    },
+    {
+      "name": "ChinaMaxNoMedia_13",
+      "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve.list",
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve_13.arrs",
+      "rule_count": 5022,
+      "skipped_count": 0,
+      "unsupported_types": {},
       "upstream_updated": "2026-06-10 02:50:00"
     },
     {
@@ -2091,16 +4062,25 @@
       "upstream_updated": "2026-06-10 02:49:59"
     },
     {
-      "name": "ChinaMaxNoMedia",
+      "name": "ChinaMaxNoMedia_01",
       "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_Resolve.list",
-      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_Resolve.arrs",
-      "rule_count": 12378,
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_Resolve_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 78,
       "unsupported_types": {
         "IP-ASN": 1,
         "USER-AGENT": 65,
         "PROCESS-NAME": 12
       },
+      "upstream_updated": "2026-06-10 02:50:00"
+    },
+    {
+      "name": "ChinaMaxNoMedia_02",
+      "source_path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_Resolve.list",
+      "output_path": "all/ChinaMaxNoMedia/ChinaMaxNoMedia_Resolve_02.arrs",
+      "rule_count": 2378,
+      "skipped_count": 0,
+      "unsupported_types": {},
       "upstream_updated": "2026-06-10 02:50:00"
     },
     {
@@ -2230,10 +4210,10 @@
       "upstream_updated": "2026-06-10 02:48:04"
     },
     {
-      "name": "ChinaTest",
+      "name": "ChinaTest_01",
       "source_path": "rule/Surge/ChinaTest/ChinaTest_All.list",
-      "output_path": "all/ChinaTest/ChinaTest_All.arrs",
-      "rule_count": 112896,
+      "output_path": "all/ChinaTest/ChinaTest_All_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 31,
       "unsupported_types": {
         "USER-AGENT": 31
@@ -2241,14 +4221,212 @@
       "upstream_updated": "2026-06-10 02:48:04"
     },
     {
-      "name": "ChinaTest",
+      "name": "ChinaTest_02",
+      "source_path": "rule/Surge/ChinaTest/ChinaTest_All.list",
+      "output_path": "all/ChinaTest/ChinaTest_All_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:04"
+    },
+    {
+      "name": "ChinaTest_03",
+      "source_path": "rule/Surge/ChinaTest/ChinaTest_All.list",
+      "output_path": "all/ChinaTest/ChinaTest_All_03.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:04"
+    },
+    {
+      "name": "ChinaTest_04",
+      "source_path": "rule/Surge/ChinaTest/ChinaTest_All.list",
+      "output_path": "all/ChinaTest/ChinaTest_All_04.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:04"
+    },
+    {
+      "name": "ChinaTest_05",
+      "source_path": "rule/Surge/ChinaTest/ChinaTest_All.list",
+      "output_path": "all/ChinaTest/ChinaTest_All_05.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:04"
+    },
+    {
+      "name": "ChinaTest_06",
+      "source_path": "rule/Surge/ChinaTest/ChinaTest_All.list",
+      "output_path": "all/ChinaTest/ChinaTest_All_06.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:04"
+    },
+    {
+      "name": "ChinaTest_07",
+      "source_path": "rule/Surge/ChinaTest/ChinaTest_All.list",
+      "output_path": "all/ChinaTest/ChinaTest_All_07.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:04"
+    },
+    {
+      "name": "ChinaTest_08",
+      "source_path": "rule/Surge/ChinaTest/ChinaTest_All.list",
+      "output_path": "all/ChinaTest/ChinaTest_All_08.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:04"
+    },
+    {
+      "name": "ChinaTest_09",
+      "source_path": "rule/Surge/ChinaTest/ChinaTest_All.list",
+      "output_path": "all/ChinaTest/ChinaTest_All_09.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:04"
+    },
+    {
+      "name": "ChinaTest_10",
+      "source_path": "rule/Surge/ChinaTest/ChinaTest_All.list",
+      "output_path": "all/ChinaTest/ChinaTest_All_10.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:04"
+    },
+    {
+      "name": "ChinaTest_11",
+      "source_path": "rule/Surge/ChinaTest/ChinaTest_All.list",
+      "output_path": "all/ChinaTest/ChinaTest_All_11.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:04"
+    },
+    {
+      "name": "ChinaTest_12",
+      "source_path": "rule/Surge/ChinaTest/ChinaTest_All.list",
+      "output_path": "all/ChinaTest/ChinaTest_All_12.arrs",
+      "rule_count": 2896,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:04"
+    },
+    {
+      "name": "ChinaTest_01",
       "source_path": "rule/Surge/ChinaTest/ChinaTest_All_No_Resolve.list",
-      "output_path": "all/ChinaTest/ChinaTest_All_No_Resolve.arrs",
-      "rule_count": 112896,
+      "output_path": "all/ChinaTest/ChinaTest_All_No_Resolve_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 31,
       "unsupported_types": {
         "USER-AGENT": 31
       },
+      "upstream_updated": "2026-06-10 02:48:04"
+    },
+    {
+      "name": "ChinaTest_02",
+      "source_path": "rule/Surge/ChinaTest/ChinaTest_All_No_Resolve.list",
+      "output_path": "all/ChinaTest/ChinaTest_All_No_Resolve_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:04"
+    },
+    {
+      "name": "ChinaTest_03",
+      "source_path": "rule/Surge/ChinaTest/ChinaTest_All_No_Resolve.list",
+      "output_path": "all/ChinaTest/ChinaTest_All_No_Resolve_03.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:04"
+    },
+    {
+      "name": "ChinaTest_04",
+      "source_path": "rule/Surge/ChinaTest/ChinaTest_All_No_Resolve.list",
+      "output_path": "all/ChinaTest/ChinaTest_All_No_Resolve_04.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:04"
+    },
+    {
+      "name": "ChinaTest_05",
+      "source_path": "rule/Surge/ChinaTest/ChinaTest_All_No_Resolve.list",
+      "output_path": "all/ChinaTest/ChinaTest_All_No_Resolve_05.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:04"
+    },
+    {
+      "name": "ChinaTest_06",
+      "source_path": "rule/Surge/ChinaTest/ChinaTest_All_No_Resolve.list",
+      "output_path": "all/ChinaTest/ChinaTest_All_No_Resolve_06.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:04"
+    },
+    {
+      "name": "ChinaTest_07",
+      "source_path": "rule/Surge/ChinaTest/ChinaTest_All_No_Resolve.list",
+      "output_path": "all/ChinaTest/ChinaTest_All_No_Resolve_07.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:04"
+    },
+    {
+      "name": "ChinaTest_08",
+      "source_path": "rule/Surge/ChinaTest/ChinaTest_All_No_Resolve.list",
+      "output_path": "all/ChinaTest/ChinaTest_All_No_Resolve_08.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:04"
+    },
+    {
+      "name": "ChinaTest_09",
+      "source_path": "rule/Surge/ChinaTest/ChinaTest_All_No_Resolve.list",
+      "output_path": "all/ChinaTest/ChinaTest_All_No_Resolve_09.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:04"
+    },
+    {
+      "name": "ChinaTest_10",
+      "source_path": "rule/Surge/ChinaTest/ChinaTest_All_No_Resolve.list",
+      "output_path": "all/ChinaTest/ChinaTest_All_No_Resolve_10.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:04"
+    },
+    {
+      "name": "ChinaTest_11",
+      "source_path": "rule/Surge/ChinaTest/ChinaTest_All_No_Resolve.list",
+      "output_path": "all/ChinaTest/ChinaTest_All_No_Resolve_11.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:48:04"
+    },
+    {
+      "name": "ChinaTest_12",
+      "source_path": "rule/Surge/ChinaTest/ChinaTest_All_No_Resolve.list",
+      "output_path": "all/ChinaTest/ChinaTest_All_No_Resolve_12.arrs",
+      "rule_count": 2896,
+      "skipped_count": 0,
+      "unsupported_types": {},
       "upstream_updated": "2026-06-10 02:48:04"
     },
     {
@@ -3249,19 +5427,73 @@
       "upstream_updated": "2025-06-06 09:17:33"
     },
     {
-      "name": "EasyPrivacy",
+      "name": "EasyPrivacy_01",
       "source_path": "rule/Surge/EasyPrivacy/EasyPrivacy_All.list",
-      "output_path": "all/EasyPrivacy/EasyPrivacy_All.arrs",
-      "rule_count": 39947,
+      "output_path": "all/EasyPrivacy/EasyPrivacy_All_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 0,
       "unsupported_types": {},
       "upstream_updated": "2025-06-06 09:18:44"
     },
     {
-      "name": "EasyPrivacy",
+      "name": "EasyPrivacy_02",
+      "source_path": "rule/Surge/EasyPrivacy/EasyPrivacy_All.list",
+      "output_path": "all/EasyPrivacy/EasyPrivacy_All_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-06-06 09:18:44"
+    },
+    {
+      "name": "EasyPrivacy_03",
+      "source_path": "rule/Surge/EasyPrivacy/EasyPrivacy_All.list",
+      "output_path": "all/EasyPrivacy/EasyPrivacy_All_03.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-06-06 09:18:44"
+    },
+    {
+      "name": "EasyPrivacy_04",
+      "source_path": "rule/Surge/EasyPrivacy/EasyPrivacy_All.list",
+      "output_path": "all/EasyPrivacy/EasyPrivacy_All_04.arrs",
+      "rule_count": 9947,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-06-06 09:18:44"
+    },
+    {
+      "name": "EasyPrivacy_01",
       "source_path": "rule/Surge/EasyPrivacy/EasyPrivacy_All_No_Resolve.list",
-      "output_path": "all/EasyPrivacy/EasyPrivacy_All_No_Resolve.arrs",
-      "rule_count": 39947,
+      "output_path": "all/EasyPrivacy/EasyPrivacy_All_No_Resolve_01.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-06-06 09:18:44"
+    },
+    {
+      "name": "EasyPrivacy_02",
+      "source_path": "rule/Surge/EasyPrivacy/EasyPrivacy_All_No_Resolve.list",
+      "output_path": "all/EasyPrivacy/EasyPrivacy_All_No_Resolve_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-06-06 09:18:44"
+    },
+    {
+      "name": "EasyPrivacy_03",
+      "source_path": "rule/Surge/EasyPrivacy/EasyPrivacy_All_No_Resolve.list",
+      "output_path": "all/EasyPrivacy/EasyPrivacy_All_No_Resolve_03.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-06-06 09:18:44"
+    },
+    {
+      "name": "EasyPrivacy_04",
+      "source_path": "rule/Surge/EasyPrivacy/EasyPrivacy_All_No_Resolve.list",
+      "output_path": "all/EasyPrivacy/EasyPrivacy_All_No_Resolve_04.arrs",
+      "rule_count": 9947,
       "skipped_count": 0,
       "unsupported_types": {},
       "upstream_updated": "2025-06-06 09:18:44"
@@ -3799,10 +6031,10 @@
       "upstream_updated": "2026-06-10 02:47:24"
     },
     {
-      "name": "Global",
+      "name": "Global_01",
       "source_path": "rule/Surge/Global/Global_All.list",
-      "output_path": "all/Global/Global_All.arrs",
-      "rule_count": 34572,
+      "output_path": "all/Global/Global_All_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 47,
       "unsupported_types": {
         "USER-AGENT": 46,
@@ -3811,15 +6043,69 @@
       "upstream_updated": "2026-06-10 02:47:24"
     },
     {
-      "name": "Global",
+      "name": "Global_02",
+      "source_path": "rule/Surge/Global/Global_All.list",
+      "output_path": "all/Global/Global_All_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:47:24"
+    },
+    {
+      "name": "Global_03",
+      "source_path": "rule/Surge/Global/Global_All.list",
+      "output_path": "all/Global/Global_All_03.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:47:24"
+    },
+    {
+      "name": "Global_04",
+      "source_path": "rule/Surge/Global/Global_All.list",
+      "output_path": "all/Global/Global_All_04.arrs",
+      "rule_count": 4572,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:47:24"
+    },
+    {
+      "name": "Global_01",
       "source_path": "rule/Surge/Global/Global_All_No_Resolve.list",
-      "output_path": "all/Global/Global_All_No_Resolve.arrs",
-      "rule_count": 34572,
+      "output_path": "all/Global/Global_All_No_Resolve_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 47,
       "unsupported_types": {
         "USER-AGENT": 46,
         "PROCESS-NAME": 1
       },
+      "upstream_updated": "2026-06-10 02:47:24"
+    },
+    {
+      "name": "Global_02",
+      "source_path": "rule/Surge/Global/Global_All_No_Resolve.list",
+      "output_path": "all/Global/Global_All_No_Resolve_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:47:24"
+    },
+    {
+      "name": "Global_03",
+      "source_path": "rule/Surge/Global/Global_All_No_Resolve.list",
+      "output_path": "all/Global/Global_All_No_Resolve_03.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2026-06-10 02:47:24"
+    },
+    {
+      "name": "Global_04",
+      "source_path": "rule/Surge/Global/Global_All_No_Resolve.list",
+      "output_path": "all/Global/Global_All_No_Resolve_04.arrs",
+      "rule_count": 4572,
+      "skipped_count": 0,
+      "unsupported_types": {},
       "upstream_updated": "2026-06-10 02:47:24"
     },
     {
@@ -6075,19 +8361,73 @@
       "upstream_updated": "2025-12-08 02:06:16"
     },
     {
-      "name": "Privacy",
+      "name": "Privacy_01",
       "source_path": "rule/Surge/Privacy/Privacy_All.list",
-      "output_path": "all/Privacy/Privacy_All.arrs",
-      "rule_count": 39936,
+      "output_path": "all/Privacy/Privacy_All_01.arrs",
+      "rule_count": 10000,
       "skipped_count": 0,
       "unsupported_types": {},
       "upstream_updated": "2025-12-08 02:06:16"
     },
     {
-      "name": "Privacy",
+      "name": "Privacy_02",
+      "source_path": "rule/Surge/Privacy/Privacy_All.list",
+      "output_path": "all/Privacy/Privacy_All_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-12-08 02:06:16"
+    },
+    {
+      "name": "Privacy_03",
+      "source_path": "rule/Surge/Privacy/Privacy_All.list",
+      "output_path": "all/Privacy/Privacy_All_03.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-12-08 02:06:16"
+    },
+    {
+      "name": "Privacy_04",
+      "source_path": "rule/Surge/Privacy/Privacy_All.list",
+      "output_path": "all/Privacy/Privacy_All_04.arrs",
+      "rule_count": 9936,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-12-08 02:06:16"
+    },
+    {
+      "name": "Privacy_01",
       "source_path": "rule/Surge/Privacy/Privacy_All_No_Resolve.list",
-      "output_path": "all/Privacy/Privacy_All_No_Resolve.arrs",
-      "rule_count": 39936,
+      "output_path": "all/Privacy/Privacy_All_No_Resolve_01.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-12-08 02:06:16"
+    },
+    {
+      "name": "Privacy_02",
+      "source_path": "rule/Surge/Privacy/Privacy_All_No_Resolve.list",
+      "output_path": "all/Privacy/Privacy_All_No_Resolve_02.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-12-08 02:06:16"
+    },
+    {
+      "name": "Privacy_03",
+      "source_path": "rule/Surge/Privacy/Privacy_All_No_Resolve.list",
+      "output_path": "all/Privacy/Privacy_All_No_Resolve_03.arrs",
+      "rule_count": 10000,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "upstream_updated": "2025-12-08 02:06:16"
+    },
+    {
+      "name": "Privacy_04",
+      "source_path": "rule/Surge/Privacy/Privacy_All_No_Resolve.list",
+      "output_path": "all/Privacy/Privacy_All_No_Resolve_04.arrs",
+      "rule_count": 9936,
       "skipped_count": 0,
       "unsupported_types": {},
       "upstream_updated": "2025-12-08 02:06:16"
