@@ -1,6 +1,6 @@
 {
-  "total_files": 42,
-  "total_rules": 82909,
+  "total_files": 38,
+  "total_rules": 82833,
   "total_skipped": 123,
   "files": [
     {
@@ -368,54 +368,10 @@
       ]
     },
     {
-      "name": "CN_Additional_01",
-      "description": "中国大陆域名补充（分片 1/5）",
-      "output_path": "common/CN_Additional_01.arrs",
-      "rule_count": 10000,
-      "skipped_count": 0,
-      "unsupported_types": {},
-      "sources": [
-        "https://static-file-global.353355.xyz/rules/cn-additional-list.txt"
-      ]
-    },
-    {
-      "name": "CN_Additional_02",
-      "description": "中国大陆域名补充（分片 2/5）",
-      "output_path": "common/CN_Additional_02.arrs",
-      "rule_count": 10000,
-      "skipped_count": 0,
-      "unsupported_types": {},
-      "sources": [
-        "https://static-file-global.353355.xyz/rules/cn-additional-list.txt"
-      ]
-    },
-    {
-      "name": "CN_Additional_03",
-      "description": "中国大陆域名补充（分片 3/5）",
-      "output_path": "common/CN_Additional_03.arrs",
-      "rule_count": 10000,
-      "skipped_count": 0,
-      "unsupported_types": {},
-      "sources": [
-        "https://static-file-global.353355.xyz/rules/cn-additional-list.txt"
-      ]
-    },
-    {
-      "name": "CN_Additional_04",
-      "description": "中国大陆域名补充（分片 4/5）",
-      "output_path": "common/CN_Additional_04.arrs",
-      "rule_count": 10000,
-      "skipped_count": 0,
-      "unsupported_types": {},
-      "sources": [
-        "https://static-file-global.353355.xyz/rules/cn-additional-list.txt"
-      ]
-    },
-    {
-      "name": "CN_Additional_05",
-      "description": "中国大陆域名补充（分片 5/5）",
-      "output_path": "common/CN_Additional_05.arrs",
-      "rule_count": 3245,
+      "name": "CN_Additional",
+      "description": "中国大陆域名补充",
+      "output_path": "common/CN_Additional.arrs",
+      "rule_count": 43245,
       "skipped_count": 0,
       "unsupported_types": {},
       "sources": [
@@ -426,7 +382,7 @@
       "name": "ChinaIP",
       "description": "中国大陆 IP CIDR",
       "output_path": "common/ChinaIP.arrs",
-      "rule_count": 5787,
+      "rule_count": 5711,
       "skipped_count": 0,
       "unsupported_types": {},
       "sources": [

@@ -11,7 +11,7 @@
 ## 内容
 
 - `rules/common/`：常用路由规则集。
-- `rules/all/`：blackmatrix7 全量转换路由规则集，超过 10,000 条的规则会自动切片。
+- `rules/all/`：blackmatrix7 全量转换路由规则集，超过 100,000 条的规则会自动切片。
 - `mitm/`：实验性 MITM 规则集及相关 Reject 规则集。
 
 ## 使用
@@ -69,13 +69,9 @@ MITM 规则为实验性内容，仅供学习交流。
 | `Bilibili` | 20 | `DIRECT` | Bilibili。 | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Bilibili.arrs) |
 | `WeChat` | 339 | `DIRECT` | WeChat。 | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/WeChat.arrs) |
 | `ChinaDomain` | 857 | `DIRECT` | 中国大陆常见域名直连。 | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/ChinaDomain.arrs) |
-| `CN_Additional_01` | 10000 | `DIRECT` | 中国大陆域名补充，分片 1/5。 | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/CN_Additional_01.arrs) |
-| `CN_Additional_02` | 10000 | `DIRECT` | 中国大陆域名补充，分片 2/5。 | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/CN_Additional_02.arrs) |
-| `CN_Additional_03` | 10000 | `DIRECT` | 中国大陆域名补充，分片 3/5。 | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/CN_Additional_03.arrs) |
-| `CN_Additional_04` | 10000 | `DIRECT` | 中国大陆域名补充，分片 4/5。 | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/CN_Additional_04.arrs) |
-| `CN_Additional_05` | 3245 | `DIRECT` | 中国大陆域名补充，分片 5/5。 | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/CN_Additional_05.arrs) |
-| `ChinaIP` | 5787 | `DIRECT` | 中国大陆 IP CIDR。 | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/ChinaIP.arrs) |
-| `GeoIP_CN` | 5951 | `DIRECT` | 从 Country.mmdb 提取的中国大陆 IP CIDR。 | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/GeoIP_CN.arrs) |
+| `CN_Additional` | 43245 | `DIRECT` | 中国大陆域名补充。 | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/CN_Additional.arrs) |
+| `ChinaIP` | 5711 | `DIRECT` | 中国大陆 IP CIDR。 | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/ChinaIP.arrs) |
+| `GeoIP_CN` | 5875 | `DIRECT` | 从 Country.mmdb 提取的中国大陆 IP CIDR。 | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/GeoIP_CN.arrs) |
 | `Lan` | 8 | `DIRECT` | 局域网和私有地址。 | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Lan.arrs) |
 | `Game` | 597 | 按需 | 游戏平台集合。 | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Game.arrs) |
 | `Steam` | 54 | 按需 | Steam。 | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Steam.arrs) |
@@ -91,7 +87,7 @@ GitHub Actions 每天自动更新生成规则。流程会转换 blackmatrix7 规
 
 Anywhere 路由规则集当前支持域名后缀、域名关键词、IPv4 CIDR 和 IPv6 CIDR。上游中无法等价表达的规则类型会在转换时跳过。
 
-Anywhere 单个自定义规则集最多 10,000 条规则。本仓库会自动将超限规则集拆成编号分片。
+Anywhere 单个自定义规则集最多 100,000 条规则。本仓库会自动将超限规则集拆成编号分片。
 
 ## 致谢
 

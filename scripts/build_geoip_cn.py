@@ -15,7 +15,7 @@ import maxminddb
 from convert_blackmatrix7 import fetch_bytes
 
 
-MAX_RULES_PER_SET = 10000
+MAX_RULES_PER_SET = 100000
 DEFAULT_SOURCE_URL = "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
 
 

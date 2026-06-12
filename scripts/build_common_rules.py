@@ -15,7 +15,7 @@ from typing import Iterable
 from convert_blackmatrix7 import convert_line, fetch_bytes, split_rule_line
 
 
-MAX_RULES_PER_SET = 10000
+MAX_RULES_PER_SET = 100000
 
 
 COMMON_RULE_SETS: list[dict[str, object]] = [

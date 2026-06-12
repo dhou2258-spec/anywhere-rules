@@ -11,7 +11,7 @@ Rule sets for [Anywhere](https://github.com/NodePassProject/Anywhere), converted
 ## Contents
 
 - `rules/common/` - curated routing rule sets for daily use.
-- `rules/all/` - full converted routing rule sets from blackmatrix7. Large rule sets are split into 10,000-rule chunks for Anywhere imports.
+- `rules/all/` - full converted routing rule sets from blackmatrix7. Large rule sets are split into 100,000-rule chunks for Anywhere imports.
 - `mitm/` - experimental MITM rule sets and related reject rule sets.
 
 ## Usage
@@ -69,13 +69,9 @@ Suggested targets are only a starting point. Pick the policy that matches your o
 | `Bilibili` | 20 | `DIRECT` | Bilibili rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Bilibili.arrs) |
 | `WeChat` | 339 | `DIRECT` | WeChat rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/WeChat.arrs) |
 | `ChinaDomain` | 857 | `DIRECT` | Common mainland China domains. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/ChinaDomain.arrs) |
-| `CN_Additional_01` | 10000 | `DIRECT` | Mainland China domain supplement, part 1 of 5. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/CN_Additional_01.arrs) |
-| `CN_Additional_02` | 10000 | `DIRECT` | Mainland China domain supplement, part 2 of 5. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/CN_Additional_02.arrs) |
-| `CN_Additional_03` | 10000 | `DIRECT` | Mainland China domain supplement, part 3 of 5. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/CN_Additional_03.arrs) |
-| `CN_Additional_04` | 10000 | `DIRECT` | Mainland China domain supplement, part 4 of 5. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/CN_Additional_04.arrs) |
-| `CN_Additional_05` | 3245 | `DIRECT` | Mainland China domain supplement, part 5 of 5. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/CN_Additional_05.arrs) |
-| `ChinaIP` | 5787 | `DIRECT` | Mainland China IP CIDR rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/ChinaIP.arrs) |
-| `GeoIP_CN` | 5951 | `DIRECT` | Mainland China IP CIDR rules extracted from Country.mmdb. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/GeoIP_CN.arrs) |
+| `CN_Additional` | 43245 | `DIRECT` | Mainland China domain supplement. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/CN_Additional.arrs) |
+| `ChinaIP` | 5711 | `DIRECT` | Mainland China IP CIDR rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/ChinaIP.arrs) |
+| `GeoIP_CN` | 5875 | `DIRECT` | Mainland China IP CIDR rules extracted from Country.mmdb. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/GeoIP_CN.arrs) |
 | `Lan` | 8 | `DIRECT` | LAN and private address rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Lan.arrs) |
 | `Game` | 597 | As needed | Game platform rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Game.arrs) |
 | `Steam` | 54 | As needed | Steam rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Steam.arrs) |
@@ -91,7 +87,7 @@ GitHub Actions updates generated rules daily. The workflow converts blackmatrix7
 
 Anywhere routing rule sets currently support domain suffix, domain keyword, IPv4 CIDR, and IPv6 CIDR. Unsupported upstream rule types are skipped during conversion.
 
-Each custom Anywhere rule set can contain at most 10,000 rules. This repository automatically splits larger generated rule sets into numbered parts.
+Each custom Anywhere rule set can contain at most 100,000 rules. This repository automatically splits larger generated rule sets into numbered parts.
 
 ## Thanks
 
