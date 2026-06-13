@@ -3,9 +3,9 @@
 # SOURCE: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/Global/Global_All_No_Resolve.list
 # GENERATED-FOR: Anywhere Routing Rule Set
 # NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.
-# RULES: 34612
+# RULES: 34629
 # SKIPPED: 47
-# UPSTREAM-UPDATED: 2026-06-12 03:03:08
+# UPSTREAM-UPDATED: 2026-06-14 02:32:49
 # SKIPPED-TYPES: PROCESS-NAME=1, USER-AGENT=46
 
 name = Global
@@ -338,7 +338,6 @@ name = Global
 2, 24porn.com
 2, 24porn.pro
 2, 258porn.com
-2, 265.com
 2, 265sdwe3.com
 2, 2789av.com
 2, 27mmwmmw.top
@@ -7578,6 +7577,7 @@ name = Global
 2, doseofporn.com
 2, dot-mac.de
 2, dot.net
+2, dota2.com
 2, dotcernpilot.info
 2, dotdeb.org
 2, dotfacebook.com
@@ -14952,6 +14952,8 @@ name = Global
 2, livehdcams.com
 2, livejasmin.com
 2, livejasminbabes.net
+2, livejournal.com
+2, livejournal.net
 2, livemodels.co
 2, livenet.ac.uk
 2, liveperson.net
@@ -18103,6 +18105,7 @@ name = Global
 2, nsirc.ac.uk
 2, nso.ac.uk
 2, nspcr.ac.uk
+2, nspk.ru
 2, nss.ac.uk
 2, nsstatic.net
 2, nsu.ac.uk
@@ -18480,6 +18483,7 @@ name = Global
 2, okx-dns.com
 2, okx-dns1.com
 2, okx-dns2.com
+2, okx.ac
 2, okx.cab
 2, olabloga.pl
 2, oldbury.ac.uk
@@ -24953,6 +24957,7 @@ name = Global
 2, v-av.com
 2, v-has.com
 2, v-resort.ac.uk
+2, v.ps
 2, v2ph.com
 2, v2ray.cool
 2, v2raytech.com
@@ -24977,6 +24982,7 @@ name = Global
 2, value-domain.com
 2, value-server.com
 2, valuegb.com
+2, valve.net
 2, vam.ac.uk
 2, vamo.com
 2, vamsas.ac.uk
@@ -25801,6 +25807,7 @@ name = Global
 2, vpornvideos.com
 2, vpro.com
 2, vpro.net
+2, vps.hosting
 2, vrbgay.com
 2, vrcams.io
 2, vrcdn.cloud
@@ -26893,6 +26900,16 @@ name = Global
 2, xsz-av.com
 2, xtapes.to
 2, xtegvk.xyz
+2, xtom.au
+2, xtom.com
+2, xtom.de
+2, xtom.ee
+2, xtom.hk
+2, xtom.jp
+2, xtom.nl
+2, xtom.sg
+2, xtom.social
+2, xtom.us
 2, xtracloud.net
 2, xtubebdsm.com
 2, xtubezoo.com

@@ -1,6 +1,6 @@
 {
   "total_files": 38,
-  "total_rules": 82833,
+  "total_rules": 82834,
   "total_skipped": 123,
   "files": [
     {
@@ -51,7 +51,7 @@
       "name": "Proxy",
       "description": "常用代理域名集合",
       "output_path": "common/Proxy.arrs",
-      "rule_count": 1558,
+      "rule_count": 1559,
       "skipped_count": 2,
       "unsupported_types": {
         "USER-AGENT": 2

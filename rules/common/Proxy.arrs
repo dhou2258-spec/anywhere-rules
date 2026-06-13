@@ -1,7 +1,7 @@
 # NAME: Proxy
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: 常用代理域名集合
-# RULES: 1558
+# RULES: 1559
 # SKIPPED: 2
 # SKIPPED-TYPES: USER-AGENT=2
 # SOURCES:
@@ -177,6 +177,7 @@ name = Proxy
 2, cfr.org
 2, ao3.org
 2, eu.org
+2, ap.org
 2, one
 2, new
 2, minecraft-services.net

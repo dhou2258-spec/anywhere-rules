@@ -3,12 +3,11 @@
 # SOURCE: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/WeiZhiYunDong/WeiZhiYunDong.list
 # GENERATED-FOR: Anywhere Routing Rule Set
 # NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.
-# RULES: 5
+# RULES: 4
 # SKIPPED: 0
-# UPSTREAM-UPDATED: 2025-06-06 09:17:50
+# UPSTREAM-UPDATED: 2026-06-14 02:34:08
 
 name = WeiZhiYunDong
-2, weizhiyundong.list
 2, dicom365.com
 2, dycom365.com
 2, wedcm.com
