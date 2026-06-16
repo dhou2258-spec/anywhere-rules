@@ -1,4 +1,5 @@
 # 京东比价 - Anywhere MITM RuleSet
+# 上游: 小白脸、灰灰；原始版脚本来自 wf021325/qx，CK 脚本来自 mw418/Loon。
 
 name = 京东比价
 hostname = in.m.jd.com, apapia-sqk-weblogic.manmanbuy.com

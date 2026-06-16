@@ -1,4 +1,5 @@
 # Goodbility - Anywhere MITM RuleSet
+# 上游: ddgksf2013/Scripts（Cuttlefish 自留地：goodbility.vip.js、deleteHeader.js）。
 
 name = Goodbility
 hostname = goodnotes.com, notability.com

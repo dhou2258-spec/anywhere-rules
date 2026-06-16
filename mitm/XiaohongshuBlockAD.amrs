@@ -1,4 +1,5 @@
 # 小红书去广告/去水印合并版 - Anywhere MITM RuleSet
+# 上游: 奶思 / fmz200/wool_scripts（xiaohongshu.js）。
 
 name = 小红书去广告去水印合并版
 hostname = edith.xiaohongshu.com, www.xiaohongshu.com, ci.xiaohongshu.com, rec.xiaohongshu.com, so.xiaohongshu.com

@@ -1,4 +1,5 @@
 # 网易云音乐去广告基础版 - Anywhere MITM RuleSet
+# 上游: 奶思 / fmz200/wool_scripts。
 
 name = 网易云音乐去广告基础版
 hostname = ipv4.music.163.com, interface.music.163.com, interface1.music.163.com, interface2.music.163.com, interface3.music.163.com, interface4.music.163.com, interface5.music.163.com, interface6.music.163.com, interface7.music.163.com, interface8.music.163.com, interface9.music.163.com

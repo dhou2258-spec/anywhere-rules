@@ -1,4 +1,5 @@
 # 微博去广告/净化 - Anywhere MITM RuleSet
+# 上游: 奶思 / fmz200/wool_scripts（fmz200，weibo_main 引用 zmqcherish）；VVebo 修复为本项目补充。
 
 name = 微博去广告净化合并版
 hostname = weibo.cn, weibo.com, uve.weibo.com, api-cloudim.api.weibo.com, card.weibo.com, weibocdn.com, weibomingzi.com, viber.com

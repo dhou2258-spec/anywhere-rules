@@ -1,4 +1,5 @@
 # iRingo Maps - Anywhere MITM RuleSet
+# 上游: NSRingo/GeoServices（作者 VirgilClyne；iRingo Maps v4.6.1）。
 
 name = iRingo Maps
 hostname = configuration.ls.apple.com, gspe35-ssl.ls.apple.com

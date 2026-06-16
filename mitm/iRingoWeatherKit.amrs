@@ -1,4 +1,5 @@
 # iRingo WeatherKit - Anywhere MITM RuleSet
+# 上游: NSRingo/WeatherKit（作者 VirgilClyne、WordlessEcho、001；v3.1.0）。
 
 name = iRingo WeatherKit
 hostname = weatherkit.apple.com

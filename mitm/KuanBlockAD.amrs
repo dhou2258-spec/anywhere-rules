@@ -1,4 +1,5 @@
 # 酷安去广告 - Anywhere MITM RuleSet
+# 上游: 奶思 / fmz200/wool_scripts；URL 重定向脚本来自 VenenoSix24/Ivy-Script。
 
 name = 酷安去广告
 hostname = api.coolapk.com, www.coolapk.com

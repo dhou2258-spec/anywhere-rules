@@ -1,4 +1,5 @@
 # YouTube 去广告 - Anywhere MITM RuleSet
+# 上游: Maasea/sgmodule（Youtube Music Enhance；作者 Maasea、Egern）。
 
 name = YouTube去广告
 hostname = youtubei.googleapis.com, googlevideo.com

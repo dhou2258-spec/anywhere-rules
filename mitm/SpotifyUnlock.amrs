@@ -1,4 +1,5 @@
 # Spotify 解锁/去广告 - Anywhere MITM RuleSet
+# 上游: app2smile/rules（spotify-json.js、spotify-proto.js）。
 
 name = Spotify解锁
 hostname = spclient.wg.spotify.com, spclient.spotify.com, spotify.com
