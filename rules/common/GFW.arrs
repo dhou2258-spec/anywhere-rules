@@ -1,7 +1,7 @@
 # NAME: GFW
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: GFW 域名列表
-# RULES: 4252
+# RULES: 4253
 # SKIPPED: 0
 # SOURCES:
 # - https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/gfw.txt
@@ -3177,6 +3177,7 @@ name = GFW
 2, sinoca.com
 2, sinocast.com
 2, sinoinsider.com
+2, sinyalee.com
 2, sipml5.org
 2, sis001.com
 2, site.new

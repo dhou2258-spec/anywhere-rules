@@ -12,6 +12,7 @@
 # - https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Reject.list
 
 name = Reject
+routing = 2
 3, adservice
 2, 17gouwuba.com
 2, 186078.com

@@ -7,6 +7,7 @@
 # - https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Lan.list
 
 name = Lan
+routing = 1
 2, local
 0, 192.168.0.0/16
 0, 10.0.0.0/8

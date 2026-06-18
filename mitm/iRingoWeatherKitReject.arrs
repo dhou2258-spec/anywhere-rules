@@ -1,6 +1,7 @@
 # iRingo WeatherKit 域名 Reject - Anywhere Routing RuleSet
 
 name = iRingo WeatherKit Reject
+routing = 2
 2, weather-analytics-events.apple.com
 2, tthr.apple.com
 2, tether.edge.apple

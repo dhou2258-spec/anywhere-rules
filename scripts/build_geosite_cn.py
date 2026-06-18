@@ -165,6 +165,7 @@ def write_rule_file(
         f"# - {source_url}",
         "",
         f"name = {name}",
+        "routing = 1",
     ])
     body.extend(f"{rule_type}, {value}" for rule_type, value in rules)
     output.write_text("\n".join(body) + "\n", encoding="utf-8")

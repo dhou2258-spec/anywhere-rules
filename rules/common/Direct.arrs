@@ -8,6 +8,7 @@
 # - https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Direct.list
 
 name = Direct
+routing = 1
 2, test-ipv6.com
 2, api.goodnotescloud.com
 2, goodnotesapp.com.cn

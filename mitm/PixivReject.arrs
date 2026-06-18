@@ -1,5 +1,6 @@
 # Pixiv 域名 Reject - Anywhere Routing RuleSet
 
 name = Pixiv Reject
+routing = 2
 2, ads-pixiv.net
 2, pixiv.org

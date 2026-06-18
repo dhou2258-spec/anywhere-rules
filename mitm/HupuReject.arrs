@@ -1,6 +1,7 @@
 # Hupu 域名 Reject - Anywhere Routing RuleSet
 
 name = Hupu Reject
+routing = 2
 2, adx.hupu.com
 2, adx-api.hupu.com
 2, goblin.hupu.com

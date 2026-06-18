@@ -1,6 +1,7 @@
 # Ximalaya 域名 Reject - Anywhere Routing RuleSet
 
 name = Ximalaya Reject
+routing = 2
 2, adsehera.ximalaya.com
 2, adse.wsa.ximalaya.com
 2, adbehavior.ximalaya.com

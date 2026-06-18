@@ -10,6 +10,7 @@
 # - https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat
 
 name = Geosite_CN
+routing = 1
 2, 0033.cn
 2, 00cdn.com
 2, 0123456789.com

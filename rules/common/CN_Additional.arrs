@@ -7,6 +7,7 @@
 # - https://static-file-global.353355.xyz/rules/cn-additional-list.txt
 
 name = CN_Additional
+routing = 1
 2, 000607.com.cn
 2, 000607.net
 2, 000681.com

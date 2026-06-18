@@ -1,6 +1,7 @@
 # 模块域名 Reject 汇总 - Anywhere Routing RuleSet
 
 name = 模块域名Reject
+routing = 2
 
 # Bilibili
 2, api.biliapi.com

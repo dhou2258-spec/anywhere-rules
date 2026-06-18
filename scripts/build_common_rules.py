@@ -22,6 +22,7 @@ COMMON_RULE_SETS: list[dict[str, object]] = [
     {
         "name": "Reject",
         "description": "广告、恶意站点和跟踪拦截基础集合",
+        "routing": 2,
         "sources": [
             "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list",
             "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Malicious.list",
@@ -33,6 +34,7 @@ COMMON_RULE_SETS: list[dict[str, object]] = [
     {
         "name": "Ads_AWAvenue",
         "description": "秋风广告规则 AWAvenue",
+        "routing": 2,
         "sources": [
             "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Surge.list",
         ],
@@ -72,6 +74,7 @@ COMMON_RULE_SETS: list[dict[str, object]] = [
     {
         "name": "Direct",
         "description": "常用直连补充",
+        "routing": 1,
         "sources": [
             "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Direct.list",
         ],
@@ -79,6 +82,7 @@ COMMON_RULE_SETS: list[dict[str, object]] = [
     {
         "name": "AppleCN",
         "description": "苹果中国和苹果 CDN 直连",
+        "routing": 1,
         "sources": [
             "https://ruleset.skk.moe/List/non_ip/apple_cn.conf",
             "https://ruleset.skk.moe/List/non_ip/apple_cdn.conf",
@@ -213,6 +217,7 @@ COMMON_RULE_SETS: list[dict[str, object]] = [
     {
         "name": "Bilibili",
         "description": "Bilibili",
+        "routing": 1,
         "sources": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list",
         ],
@@ -220,6 +225,7 @@ COMMON_RULE_SETS: list[dict[str, object]] = [
     {
         "name": "WeChat",
         "description": "WeChat",
+        "routing": 1,
         "sources": [
             "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/WeChat.list",
         ],
@@ -227,6 +233,7 @@ COMMON_RULE_SETS: list[dict[str, object]] = [
     {
         "name": "ChinaDomain",
         "description": "中国大陆常见域名直连",
+        "routing": 1,
         "sources": [
             "https://ruleset.skk.moe/List/non_ip/domestic.conf",
         ],
@@ -234,6 +241,7 @@ COMMON_RULE_SETS: list[dict[str, object]] = [
     {
         "name": "CN_Additional",
         "description": "中国大陆域名补充",
+        "routing": 1,
         "sources": [
             "https://static-file-global.353355.xyz/rules/cn-additional-list.txt",
         ],
@@ -241,6 +249,7 @@ COMMON_RULE_SETS: list[dict[str, object]] = [
     {
         "name": "ChinaIP",
         "description": "中国大陆 IP CIDR",
+        "routing": 1,
         "sources": [
             "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt",
         ],
@@ -248,6 +257,7 @@ COMMON_RULE_SETS: list[dict[str, object]] = [
     {
         "name": "Lan",
         "description": "局域网和私有地址",
+        "routing": 1,
         "sources": [
             "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Lan.list",
         ],
@@ -283,6 +293,7 @@ COMMON_RULE_SETS: list[dict[str, object]] = [
     {
         "name": "CDN",
         "description": "SukkaW CDN 直连辅助",
+        "routing": 1,
         "sources": [
             "https://ruleset.skk.moe/List/domainset/cdn.conf",
             "https://ruleset.skk.moe/List/non_ip/cdn.conf",
@@ -404,6 +415,7 @@ def write_rule_set_file(
     sources: list[str],
     unsupported: dict[str, int] | None = None,
     total_rules: int | None = None,
+    routing: int | None = None,
 ) -> None:
     output.parent.mkdir(parents=True, exist_ok=True)
     body = [
@@ -423,6 +435,8 @@ def write_rule_set_file(
     body.append("# SOURCES:")
     body.extend(f"# - {source}" for source in sources)
     body.extend(["", f"name = {name}"])
+    if routing is not None:
+        body.append(f"routing = {routing}")
     body.extend(f"{rule_type}, {value}" for rule_type, value in rules)
     output.write_text("\n".join(body) + "\n", encoding="utf-8")
 
@@ -434,10 +448,11 @@ def build_rule_set_outputs(
     unsupported: dict[str, int],
     sources: list[str],
     output_dir: Path,
+    routing: int | None,
 ) -> list[BuiltCommonRuleSet]:
     if len(rules) <= MAX_RULES_PER_SET:
         output = output_dir / f"{name}.arrs"
-        write_rule_set_file(output, name, description, rules, sources, unsupported)
+        write_rule_set_file(output, name, description, rules, sources, unsupported, routing=routing)
         return [
             BuiltCommonRuleSet(
                 name=name,
@@ -468,6 +483,7 @@ def build_rule_set_outputs(
             sources,
             part_unsupported,
             total_rules=len(rules),
+            routing=routing,
         )
         built.append(
             BuiltCommonRuleSet(
@@ -486,6 +502,8 @@ def build_rule_set_outputs(
 def build_rule_set(config: dict[str, object], output_dir: Path) -> list[BuiltCommonRuleSet]:
     name = str(config["name"])
     description = str(config.get("description", ""))
+    routing_value = config.get("routing")
+    routing = int(routing_value) if routing_value is not None else None
     sources = [str(url) for url in config.get("sources", [])]
     all_lines: list[str] = []
     for source in sources:
@@ -493,7 +511,7 @@ def build_rule_set(config: dict[str, object], output_dir: Path) -> list[BuiltCom
         all_lines.append("")
 
     rules, unsupported = convert_lines(all_lines)
-    return build_rule_set_outputs(name, description, rules, unsupported, sources, output_dir)
+    return build_rule_set_outputs(name, description, rules, unsupported, sources, output_dir, routing)
 
 
 def write_catalog(output_dir: Path, built: list[BuiltCommonRuleSet]) -> None:

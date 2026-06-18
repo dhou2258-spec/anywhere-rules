@@ -18,13 +18,13 @@ Rule sets for [Anywhere](https://github.com/NodePassProject/Anywhere), converted
 
 ### Routing Rules
 
-Import a `.arrs` raw URL in Anywhere, then assign the imported rule set to `DIRECT`, `REJECT`, or a proxy policy.
+Open an `anywhere://add-rule-set` link to import a `.arrs` rule set into Anywhere.
 
 ```text
-https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/AI.arrs
+anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FAI.arrs
 ```
 
-Anywhere stores the action outside the file. A rule file only contains the rule set name and match rules.
+Some rule sets include a `routing` header, so Anywhere can assign their initial target automatically on import. Other rule sets stay at Default until you choose `DIRECT`, `REJECT`, or a proxy policy.
 
 ### MITM Rules
 
@@ -38,47 +38,47 @@ Only enable MITM for traffic you are allowed to inspect.
 
 Suggested targets are only a starting point. Pick the policy that matches your own proxy setup.
 
-| Rule | Rules | Suggested | Purpose | Raw |
+| Rule | Rules | Suggested | Purpose | Import |
 | --- | ---: | --- | --- | --- |
-| `Reject` | 6204 | `REJECT` | Basic ads, malicious sites, and tracking block list. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Reject.arrs) |
-| `Ads_AWAvenue` | 899 | `REJECT` | AWAvenue ad-blocking rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Ads_AWAvenue.arrs) |
-| `AI` | 49 | Proxy | Common AI services. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/AI.arrs) |
-| `Proxy` | 1559 | Proxy | General proxy-domain collection. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Proxy.arrs) |
-| `ProxyGFW` | 7597 | Proxy | Broad GFW proxy collection. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/ProxyGFW.arrs) |
-| `GFW` | 4252 | Proxy | GFW domain list. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/GFW.arrs) |
-| `Direct` | 36 | `DIRECT` | Small direct-route supplement. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Direct.arrs) |
-| `AppleCN` | 9 | `DIRECT` | Apple China and Apple CDN direct-route rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/AppleCN.arrs) |
-| `AppleProxy` | 39 | Proxy | Apple services that usually need a proxy. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/AppleProxy.arrs) |
-| `Apple` | 44 | As needed | Basic Apple service rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Apple.arrs) |
-| `AppleServices` | 17 | As needed | Apple system service rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/AppleServices.arrs) |
-| `AppleMusic` | 9 | As needed | Apple Music rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/AppleMusic.arrs) |
-| `Google` | 25 | Proxy | Google services. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Google.arrs) |
-| `YouTube` | 14 | Proxy | YouTube rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/YouTube.arrs) |
-| `Microsoft` | 79 | As needed | Microsoft services. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Microsoft.arrs) |
-| `GitHub` | 6 | As needed | GitHub rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/GitHub.arrs) |
-| `OneDrive` | 15 | As needed | OneDrive rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/OneDrive.arrs) |
-| `Telegram` | 45 | Proxy | Telegram domains and IP ranges. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Telegram.arrs) |
-| `Telegram_NoIP` | 30 | Proxy | Telegram domains only, without IP ranges. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Telegram_NoIP.arrs) |
-| `Twitter` | 12 | Proxy | X / Twitter rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Twitter.arrs) |
-| `Instagram` | 4 | Proxy | Instagram rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Instagram.arrs) |
-| `Facebook` | 21 | Proxy | Facebook rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Facebook.arrs) |
-| `Netflix` | 40 | Proxy | Netflix rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Netflix.arrs) |
-| `Disney` | 172 | Proxy | Disney+ rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Disney.arrs) |
-| `Spotify` | 29 | Proxy | Spotify rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Spotify.arrs) |
-| `TikTok` | 81 | Proxy | TikTok rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/TikTok.arrs) |
-| `Bilibili` | 20 | `DIRECT` | Bilibili rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Bilibili.arrs) |
-| `WeChat` | 339 | `DIRECT` | WeChat rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/WeChat.arrs) |
-| `ChinaDomain` | 857 | `DIRECT` | Common mainland China domains. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/ChinaDomain.arrs) |
-| `CN_Additional` | 43245 | `DIRECT` | Mainland China domain supplement. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/CN_Additional.arrs) |
-| `Geosite_CN` | 4752 | `DIRECT` | Mainland China domains extracted from geosite.dat `GEOLOCATION-CN`. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Geosite_CN.arrs) |
-| `ChinaIP` | 5711 | `DIRECT` | Mainland China IP CIDR rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/ChinaIP.arrs) |
-| `GeoIP_CN` | 5875 | `DIRECT` | Mainland China IP CIDR rules extracted from Country.mmdb. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/GeoIP_CN.arrs) |
-| `Lan` | 8 | `DIRECT` | LAN and private address rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Lan.arrs) |
-| `Game` | 597 | As needed | Game platform rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Game.arrs) |
-| `Steam` | 54 | As needed | Steam rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Steam.arrs) |
-| `PayPal` | 247 | As needed | PayPal rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/PayPal.arrs) |
-| `Cloudflare` | 65 | As needed | Cloudflare rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/Cloudflare.arrs) |
-| `CDN` | 4526 | `DIRECT` | CDN direct-route helper rules. | [Raw](https://raw.githubusercontent.com/chikacya/anywhere-rules/main/rules/common/CDN.arrs) |
+| `Reject` | 6204 | `REJECT` | Basic ads, malicious sites, and tracking block list. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FReject.arrs) |
+| `Ads_AWAvenue` | 899 | `REJECT` | AWAvenue ad-blocking rules. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FAds_AWAvenue.arrs) |
+| `AI` | 49 | Proxy | Common AI services. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FAI.arrs) |
+| `Proxy` | 1559 | Proxy | General proxy-domain collection. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FProxy.arrs) |
+| `ProxyGFW` | 7597 | Proxy | Broad GFW proxy collection. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FProxyGFW.arrs) |
+| `GFW` | 4253 | Proxy | GFW domain list. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FGFW.arrs) |
+| `Direct` | 36 | `DIRECT` | Small direct-route supplement. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FDirect.arrs) |
+| `AppleCN` | 9 | `DIRECT` | Apple China and Apple CDN direct-route rules. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FAppleCN.arrs) |
+| `AppleProxy` | 39 | Proxy | Apple services that usually need a proxy. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FAppleProxy.arrs) |
+| `Apple` | 44 | As needed | Basic Apple service rules. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FApple.arrs) |
+| `AppleServices` | 17 | As needed | Apple system service rules. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FAppleServices.arrs) |
+| `AppleMusic` | 9 | As needed | Apple Music rules. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FAppleMusic.arrs) |
+| `Google` | 25 | Proxy | Google services. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FGoogle.arrs) |
+| `YouTube` | 14 | Proxy | YouTube rules. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FYouTube.arrs) |
+| `Microsoft` | 79 | As needed | Microsoft services. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FMicrosoft.arrs) |
+| `GitHub` | 6 | As needed | GitHub rules. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FGitHub.arrs) |
+| `OneDrive` | 15 | As needed | OneDrive rules. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FOneDrive.arrs) |
+| `Telegram` | 45 | Proxy | Telegram domains and IP ranges. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FTelegram.arrs) |
+| `Telegram_NoIP` | 30 | Proxy | Telegram domains only, without IP ranges. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FTelegram_NoIP.arrs) |
+| `Twitter` | 12 | Proxy | X / Twitter rules. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FTwitter.arrs) |
+| `Instagram` | 4 | Proxy | Instagram rules. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FInstagram.arrs) |
+| `Facebook` | 21 | Proxy | Facebook rules. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FFacebook.arrs) |
+| `Netflix` | 40 | Proxy | Netflix rules. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FNetflix.arrs) |
+| `Disney` | 172 | Proxy | Disney+ rules. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FDisney.arrs) |
+| `Spotify` | 29 | Proxy | Spotify rules. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FSpotify.arrs) |
+| `TikTok` | 81 | Proxy | TikTok rules. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FTikTok.arrs) |
+| `Bilibili` | 20 | `DIRECT` | Bilibili rules. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FBilibili.arrs) |
+| `WeChat` | 339 | `DIRECT` | WeChat rules. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FWeChat.arrs) |
+| `ChinaDomain` | 857 | `DIRECT` | Common mainland China domains. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FChinaDomain.arrs) |
+| `CN_Additional` | 43245 | `DIRECT` | Mainland China domain supplement. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FCN_Additional.arrs) |
+| `Geosite_CN` | 4733 | `DIRECT` | Mainland China domains extracted from geosite.dat `GEOLOCATION-CN`. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FGeosite_CN.arrs) |
+| `ChinaIP` | 5711 | `DIRECT` | Mainland China IP CIDR rules. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FChinaIP.arrs) |
+| `GeoIP_CN` | 5946 | `DIRECT` | Mainland China IP CIDR rules extracted from Country.mmdb. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FGeoIP_CN.arrs) |
+| `Lan` | 8 | `DIRECT` | LAN and private address rules. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FLan.arrs) |
+| `Game` | 597 | As needed | Game platform rules. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FGame.arrs) |
+| `Steam` | 54 | As needed | Steam rules. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FSteam.arrs) |
+| `PayPal` | 247 | As needed | PayPal rules. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FPayPal.arrs) |
+| `Cloudflare` | 65 | As needed | Cloudflare rules. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FCloudflare.arrs) |
+| `CDN` | 4529 | `DIRECT` | CDN direct-route helper rules. | [Import](anywhere://add-rule-set?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FCDN.arrs) |
 
 ## Update
 

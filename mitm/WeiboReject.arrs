@@ -1,6 +1,7 @@
 # Weibo 域名 Reject - Anywhere Routing RuleSet
 
 name = Weibo Reject
+routing = 2
 2, biz.weibo.com
 2, bootpreload.uve.weibo.com
 2, fastimage.uve.weibo.com

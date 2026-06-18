@@ -1,6 +1,7 @@
 # JD 域名 Reject - Anywhere Routing RuleSet
 
 name = JD Reject
+routing = 2
 2, jzt.jd.com
 2, img-x.jd.com
 2, du.jd.com

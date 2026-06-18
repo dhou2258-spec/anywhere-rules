@@ -8,6 +8,7 @@
 # - https://ruleset.skk.moe/List/non_ip/domestic.conf
 
 name = ChinaDomain
+routing = 1
 2, c-t.work
 2, mijia.tech
 2, xunyou.mobi

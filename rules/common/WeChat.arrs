@@ -8,6 +8,7 @@
 # - https://raw.githubusercontent.com/NobyDa/Script/master/Surge/WeChat.list
 
 name = WeChat
+routing = 1
 3, 101.226.211.
 3, 101.226.222.
 3, 101.226.226.
