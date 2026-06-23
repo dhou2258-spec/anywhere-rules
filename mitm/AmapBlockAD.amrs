@@ -2,8 +2,9 @@
 # 上游: RuCu6 / kelv1n1n / 可莉（Amap.lpx, amap.js）。
 
 name = 高德地图去广告增强版
-hostname = m5.amap.com, m5-zb.amap.com, oss.amap.com, ai.amap.com, sns.amap.com, info.amap.com
+hostname = m5.amap.com, m5-zb.amap.com, oss.amap.com, ai.amap.com, sns.amap.com, info.amap.com, amdc.m.taobao.com
 
+0, 0, ^http://amdc\.m\.taobao\.com/amdc/mobileDispatch(?:\?|/|$), 2, 
 0, 0, ^https://m5-zb\.amap\.com/ws/ride/home/page/get_commuting_card(?:\?|$), 2, {}
 0, 0, ^https://m5\.amap\.com/ws/shield/search_business/process/orderList(?:\?|$), 2, {}
 0, 0, ^https://m5\.amap\.com/ws/shield/search/new_hotword(?:\?|$), 2, {}
