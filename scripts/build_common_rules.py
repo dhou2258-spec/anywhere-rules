@@ -16,6 +16,7 @@ from convert_blackmatrix7 import convert_line, fetch_bytes, split_rule_line
 
 
 MAX_RULES_PER_SET = 100000
+PRESERVED_COMMON_RULE_GLOBS = ("CN_Radar*.arrs",)
 
 
 COMMON_RULE_SETS: list[dict[str, object]] = [
@@ -313,6 +314,61 @@ class BuiltCommonRuleSet:
     sources: list[str] = field(default_factory=list)
 
 
+def preserve_external_common_rules(output_dir: Path) -> dict[str, bytes]:
+    preserved: dict[str, bytes] = {}
+    if not output_dir.exists():
+        return preserved
+    for pattern in PRESERVED_COMMON_RULE_GLOBS:
+        for path in output_dir.glob(pattern):
+            if path.is_file():
+                preserved[path.name] = path.read_bytes()
+    return preserved
+
+
+def parse_existing_rule_set(output_dir: Path, path: Path) -> BuiltCommonRuleSet:
+    headers: dict[str, str] = {}
+    sources: list[str] = []
+    rule_count = 0
+    in_sources = False
+
+    for raw in path.read_text(encoding="utf-8", errors="replace").splitlines():
+        line = raw.strip()
+        if line.startswith("# SOURCES:"):
+            in_sources = True
+            continue
+        if in_sources and line.startswith("# - "):
+            sources.append(line[4:].strip())
+            continue
+        if line.startswith("# ") and ":" in line:
+            key, value = line[2:].split(":", 1)
+            headers[key.strip().upper()] = value.strip()
+            in_sources = False
+            continue
+        if line and not line.startswith("#") and not line.startswith("name") and not line.startswith("routing"):
+            rule_count += 1
+
+    name = headers.get("NAME", path.stem)
+    description = headers.get("DESCRIPTION", "")
+    try:
+        rule_count = int(headers.get("RULES", rule_count))
+    except ValueError:
+        pass
+    try:
+        skipped_count = int(headers.get("SKIPPED", "0"))
+    except ValueError:
+        skipped_count = 0
+
+    return BuiltCommonRuleSet(
+        name=name,
+        description=description,
+        output_path=path.relative_to(output_dir.parent).as_posix(),
+        rule_count=rule_count,
+        skipped_count=skipped_count,
+        unsupported_types={},
+        sources=sources,
+    )
+
+
 ALIASES = {
     "HOST": "DOMAIN",
     "HOST-SUFFIX": "DOMAIN-SUFFIX",
@@ -539,6 +595,7 @@ def main() -> int:
 
     dist = Path(args.dist)
     output_dir = dist / "common"
+    preserved = preserve_external_common_rules(output_dir)
     if output_dir.exists():
         shutil.rmtree(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -546,6 +603,10 @@ def main() -> int:
     built: list[BuiltCommonRuleSet] = []
     for config in COMMON_RULE_SETS:
         built.extend(build_rule_set(config, output_dir))
+    for name, data in preserved.items():
+        restored = output_dir / name
+        restored.write_bytes(data)
+        built.append(parse_existing_rule_set(output_dir, restored))
     index = {
         "total_files": len(built),
         "total_rules": sum(item.rule_count for item in built),

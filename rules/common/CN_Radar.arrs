@@ -1,0 +1,194 @@
+# NAME: CN_Radar
+# GENERATED-FOR: Anywhere Routing Rule Set
+# DESCRIPTION: Cloudflare Radar 中国大陆域名增强补充
+# RULES: 175
+# SKIPPED: 0
+# RADAR-TOP: 10000
+# CANDIDATES: 10000
+# EXCLUDED: 2415
+# DNS-EVALUATED: 7585
+# ACCEPTED-BEFORE-EXCLUSION: 175
+# MIN-CN-RATIO: 1.0
+# SOURCES:
+# - Cloudflare Radar Domain Rankings
+# - https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
+# - https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat
+# - https://raw.githubusercontent.com/NodePassProject/Anywhere/main/Shared/DataStore/Rules.db
+
+name = CN_Radar
+routing = 1
+2, 17track.net
+2, 300624.com
+2, 51.la
+2, 51panhuo.com
+2, abupdate.com
+2, adups.com
+2, advlion.com
+2, aidcgroup.net
+2, airwallex.com
+2, alibabacorp.com
+2, aliexpress.com
+2, alipaydns.com
+2, aliyuncsslb.com
+2, allapp.link
+2, allawntech.com
+2, anker-in.com
+2, anlian.co
+2, app-analytics-services-att.com
+2, aqara.com
+2, auteltech.net
+2, av380.net
+2, babybus.com
+2, badambiz.com
+2, baishan-cloud.net
+2, beizi.biz
+2, bsgslb.com
+2, cdreader.com
+2, cedock.com
+2, chem17.com
+2, cloud-control.top
+2, cloudseeplus.com
+2, cloudseetech.com
+2, cnzz.com
+2, connectedpdf.com
+2, coolacloud.com
+2, coolccloud.com
+2, coolkit.cc
+2, crtrcloud.com
+2, cvtapi.com
+2, cvte.com
+2, dailygn.com
+2, dmrtb.com
+2, dnspod.net
+2, easemob.com
+2, eccdnx.com
+2, ecoflow.com
+2, ecouser.net
+2, epubgame.com
+2, etoote.com
+2, evtrust.com
+2, eyugame.com
+2, facecast.xyz
+2, faipod.com
+2, finzfin.com
+2, foisonad.com
+2, fscut.com
+2, fxltsbl.com
+2, gameanalytics.com
+2, globalso.com
+2, go2yd.com
+2, goodwe-power.com
+2, gpsonextra.net
+2, growatt.com
+2, gtm-a2b2.com
+2, guance.com
+2, hellotalk8.com
+2, hetangsmart.com
+2, huan.tv
+2, huangye88.com
+2, huaweicloud.com
+2, huaweicloudwaf.com
+2, immomo.com
+2, inmobicdn.net
+2, iq.com
+2, izatcloud.net
+2, jftech.com
+2, jftechsoft.com
+2, jftechws.com
+2, jihulab.com
+2, komect.com
+2, kunlunaq.com
+2, kunluncan.com
+2, kunlungr.com
+2, kunlunhuf.com
+2, kunlunsl.com
+2, kunlunso.com
+2, kwai.net
+2, lahuashanbx.com
+2, larkoffice.com
+2, levect.com
+2, lilith.com
+2, lilithgame.com
+2, made-in-china.com
+2, mediation.goog
+2, mediav.com
+2, mentamob.com
+2, mgslb.com
+2, mintegral.com
+2, mova-tech.com
+2, moyoung.com
+2, msndvr.com
+2, my-imcloud.com
+2, ndcimgs.com
+2, ninebot.com
+2, novaicare.com
+2, onelnk.com
+2, oneplus.com
+2, p6sai.com
+2, piojm.tech
+2, pmman.tech
+2, q1.com
+2, qcloudcdn.com
+2, qcloudteo.com
+2, qg.net
+2, qhmoka.com
+2, qianxun.com
+2, qiezibenpao.com
+2, qiyukf.com
+2, qrstuvwxyzab.com
+2, qunar.com
+2, qxwz.com
+2, razersynapse.com
+2, renfei.net
+2, rj.link
+2, rumt-zh.com
+2, salesmartly.com
+2, secu100.net
+2, servicewechat.com
+2, shuashuati.com
+2, sihuacloud.com
+2, smartcloudcon.com
+2, solar-engine.com
+2, stardust-tv.com
+2, stardustgod.com
+2, starrydyn.com
+2, sunmi.com
+2, szbboys.com
+2, tange365.com
+2, tclclouds.com
+2, tencentcs.com
+2, tianwenca.com
+2, transsion.com
+2, tuchong.com
+2, tuya.com
+2, ubnt.com
+2, uc123.com
+2, ugdtimg.com
+2, ugnas.com
+2, ulikecam.com
+2, umeng.com
+2, unisoc.com
+2, uwn.com
+2, vnnox.com
+2, wali.com
+2, wechat.com
+2, wetest.net
+2, wiodo.tech
+2, wondershare.cc
+2, xdrig.com
+2, xiaojukeji.com
+2, xiaomiwear.com
+2, xiaoyi.com
+2, xinqiucc.com
+2, xmcsrv.net
+2, xmeye.net
+2, xxpkg.com
+2, ydmob.com
+2, ydycdn.com
+2, yeahtargeter.com
+2, yealink.com
+2, youlesp.com
+2, yunxinfw.com
+2, yunxish.com
+2, zhhainiao.com
+2, ziniao.com

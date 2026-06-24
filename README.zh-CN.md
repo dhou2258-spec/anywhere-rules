@@ -73,6 +73,7 @@ MITM 规则为实验性内容，仅供学习交流。
 | `ChinaDomain` | 857 | `DIRECT` | 中国大陆常见域名直连。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FChinaDomain.arrs) |
 | `CN_Additional` | 43245 | `DIRECT` | 中国大陆域名补充。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FCN_Additional.arrs) |
 | `Geosite_CN` | 4733 | `DIRECT` | 从 geosite.dat 的 `GEOLOCATION-CN` 提取的中国大陆域名。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FGeosite_CN.arrs) |
+| `CN_Radar` | 175 | `DIRECT` | 基于 Cloudflare Radar 与中国 DNS 生成，并排除 Geosite CN 和 Anywhere 内置 CN 的中国大陆域名补充。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FCN_Radar.arrs) |
 | `ChinaIP` | 5711 | `DIRECT` | 中国大陆 IP CIDR。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FChinaIP.arrs) |
 | `GeoIP_CN` | 5946 | `DIRECT` | 从 Country.mmdb 提取的中国大陆 IP CIDR。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FGeoIP_CN.arrs) |
 | `Lan` | 8 | `DIRECT` | 局域网和私有地址。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FLan.arrs) |
@@ -84,7 +85,7 @@ MITM 规则为实验性内容，仅供学习交流。
 
 ## 更新
 
-GitHub Actions 每天自动更新生成规则。流程会转换 blackmatrix7 规则、生成 common 规则，从 `Country.mmdb` 提取 `GeoIP_CN`，并从 `geosite.dat` 提取 `Geosite_CN`。
+GitHub Actions 每天自动更新常规生成规则。`CN_Radar` 由单独的 14 天周期 workflow 基于 Cloudflare Radar 与中国 DNS 生成，Radar 失败不会影响日常规则更新。
 
 ## 说明
 
