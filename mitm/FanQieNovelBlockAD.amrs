@@ -1,0 +1,19 @@
+# 番茄小说去广告 - Anywhere MITM RuleSet
+# 上游: 奶思 / fmz200/wool_scripts（FanQieNovel.lpx）。
+
+name = 番茄小说去广告
+hostname = pangolin-sdk-toutiao.com, pglstatp-toutiao.com, pstatp.com, gurd.snssdk.com, snssdk.com, byteimg.com, default.ixigua.com
+
+0, 0, ^https?://.+\.pangolin-sdk-toutiao\.com/api/ad/union/sdk/(?:get_ads|stats|settings)/, 2, 
+0, 0, ^https?://.+\.pglstatp-toutiao\.com/.+/toutiao\.mp4, 2, 
+0, 0, ^https?://.+\.(?:pglstatp-toutiao|pstatp)\.com/(?:obj|img)/(?:ad-app-package|ad)/.+, 3
+0, 0, ^https?://.+\.(?:pglstatp-toutiao|pstatp)\.com/(?:obj|img)/web\.business\.image/.+, 3
+0, 0, ^https?://.+\.(?:pglstatp-toutiao|pstatp)\.com/obj/ad-pattern/renderer, 2, 
+0, 0, ^https?://gurd\.snssdk\.com/src/server/v3/package, 2, 
+0, 0, ^https?://.+\.byteimg\.com/tos-cn-i-1yzifmftcy/(.+)-jpeg\.jpeg, 3
+0, 0, ^https?://.+\.pstatp\.com/obj/mosaic-legacy/.+\?from=ad, 3
+0, 0, ^https?://.+\.pstatp\.com/bytecom/resource/track_log/src/.+, 2, 
+0, 0, ^https?://.+\.snssdk\.com/video/play/1/toutiao/.+/mp4, 2, 
+0, 0, ^https?://.+\.snssdk\.com/api/ad/.+, 2, 
+0, 0, ^https?://.+\.byteimg\.com/ad-app-package, 3
+0, 0, ^https?://.+\.byteimg\.com/web\.business\.image, 3

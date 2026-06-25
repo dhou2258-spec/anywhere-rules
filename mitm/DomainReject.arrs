@@ -66,6 +66,30 @@ routing = 2
 2, ynuf.aliapp.org
 2, res-ga.smzdm.com
 
+# FanQieNovel
+2, i-lq.snssdk.com
+2, is-lq.snssdk.com
+2, ug-sinfonlinea.bytedance.com
+2, dig.bdurl.net
+2, activity-ag.awemeughun.com
+2, mcs.snssdk.com
+2, tnc3-alisc1.snssdk.com
+2, security-lq.snssdk.com
+2, tnc3-aliec2.snssdk.com
+2, v6-novelapp.ixigua.com
+2, msync-im1-vip6-std.easemob.com
+2, apd-pcdnwxlogin.teg.tencent-cloud.net
+2, api.iegadp.qq.com
+2, novelapp.ixigua.com
+2, default.ixigua.com
+2, byteorge.com
+0, 49.71.37.101/32
+0, 117.71.105.23/32
+0, 218.94.207.205/32
+0, 117.92.229.188/32
+0, 101.36.166.16/32
+0, 180.96.2.114/32
+
 # JD
 2, jzt.jd.com
 2, img-x.jd.com
