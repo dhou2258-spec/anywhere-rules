@@ -1,6 +1,6 @@
 {
   "total_files": 39,
-  "total_rules": 152541,
+  "total_rules": 152512,
   "total_skipped": 67,
   "files": [
     {
@@ -381,7 +381,7 @@
       "name": "ChinaIP",
       "description": "中国大陆 IP CIDR",
       "output_path": "common/ChinaIP.arrs",
-      "rule_count": 9651,
+      "rule_count": 9621,
       "skipped_count": 0,
       "unsupported_types": {},
       "sources": [
@@ -463,7 +463,7 @@
       "name": "GeoIP_CN",
       "description": "GeoIP 中国大陆 IP CIDR",
       "output_path": "common/GeoIP_CN.arrs",
-      "rule_count": 9820,
+      "rule_count": 9821,
       "skipped_count": 0,
       "unsupported_types": {},
       "sources": [
