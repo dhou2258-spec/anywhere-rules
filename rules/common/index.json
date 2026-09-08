@@ -1,6 +1,6 @@
 {
   "total_files": 39,
-  "total_rules": 152526,
+  "total_rules": 152570,
   "total_skipped": 67,
   "files": [
     {
@@ -24,7 +24,7 @@
       "name": "Ads_AWAvenue",
       "description": "秋风广告规则 AWAvenue",
       "output_path": "common/Ads_AWAvenue.arrs",
-      "rule_count": 896,
+      "rule_count": 940,
       "skipped_count": 0,
       "unsupported_types": {},
       "sources": [
